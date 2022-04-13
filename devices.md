@@ -6,12 +6,13 @@ Some information on the devices that I use daily.
 
 - [34" 3440x1440 Alienware UltraWide display](https://www.newegg.com/p/N82E16824260555)
 - Custom Desktop
-    - AMD Ryzen 7 2700X
+    - X299 AORUS Gaming 3 
+    - Intel i9-10920X
     - 32GB DDR4 3200MHz
     - AMD RX 580 8GB Model
     - 500GB Samsung SSD 860 EVO
     - 250GB Crucial M.2 SSD 
-    - 2TB Western Digital 
+    - 1TB Western Digital 
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
 
 ## Laptop
