@@ -18,10 +18,11 @@ Some information on the devices that I use daily.
 ## Laptop
 
 - [System76 Galago Pro](https://system76.com/laptops/galago) (galp3-b) 
-    - Intel i5-8250U
-    - 16GB DDR4 2400MHz
-    - 500GB 
-    - 250GB 
+    - CPU: Intel i5-8250U
+    - GPU: Intel HD 620
+    - RAM: 16GB DDR4 2400MHz
+    - Pop!_OS: 500GB 
+    - Backups: 250GB 
 
 ## Mobile
 
