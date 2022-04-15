@@ -14,6 +14,8 @@ Some information on the devices that I use daily.
     - Pop!_OS: 250GB Crucial M.2 SSD 
     - Backups: 1TB Western Digital 
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
+- Keycaps: [LTC LavaCaps PBT Double Shot](https://www.amazon.com/dp/B09J1G8RGF/)
+- Switches: Kailh Box Jade
 
 ## Laptop
 
