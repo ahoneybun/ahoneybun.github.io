@@ -3,7 +3,7 @@
 
 # Aaron's Blog
 
-A place for my thoughts on things and also a review or two.
+A place for my thoughts on things, tips & tricks, and maybe a review or two.
 
 {% assign posts = site.posts | sort: "date" | sort: "updated" | reverse %}
 
