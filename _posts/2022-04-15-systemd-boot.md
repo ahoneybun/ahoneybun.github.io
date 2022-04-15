@@ -55,3 +55,9 @@ Exec=sh -c "pkexec efibootmgr -n 0001"
 Name=Boot to Pop!_OS
 Icon=/home/aaronh/Documents/pop_icon.svg
 ```
+
+## Pop Launcher
+
+This is how they look like in the Pop Launcher:
+
+![Pop Launcher](/images/{{ page.url }}/pop-launcher.png)
