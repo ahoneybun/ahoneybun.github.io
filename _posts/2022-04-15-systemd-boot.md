@@ -64,4 +64,4 @@ This is how they look like in the Pop Launcher:
 
 and this is how they look like in Pop's App Library:
 
-![Pop App Library](/images/{{ page.url}}/pop-app-library.png)
+![Pop App Library](/images/{{ page.url }}/pop-app-library.png)
