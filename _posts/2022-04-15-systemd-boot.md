@@ -61,3 +61,7 @@ Icon=/home/aaronh/Documents/pop_icon.svg
 This is how they look like in the Pop Launcher:
 
 ![Pop Launcher](/images/{{ page.url }}/pop-launcher.png)
+
+and this is how they look like in Pop's App Library:
+
+![Pop App Library](/images/{{ page.url}}/pop-app-library.png)
