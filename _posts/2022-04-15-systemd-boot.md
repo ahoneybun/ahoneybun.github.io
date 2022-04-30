@@ -65,3 +65,9 @@ This is how they look like in the Pop Launcher:
 and this is how they look like in Pop's App Library:
 
 ![Pop App Library](/images/{{ page.url }}/pop-app-library.png)
+
+## Plasma
+
+This also works with Krunner and other Application launchers in Plasma!
+
+![Krunnder]()/images/{{ page.url }}/krunner.png)
