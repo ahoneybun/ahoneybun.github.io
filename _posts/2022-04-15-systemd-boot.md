@@ -70,4 +70,4 @@ and this is how they look like in Pop's App Library:
 
 This also works with Krunner and other Application launchers in Plasma!
 
-![Krunnder]()/images/{{ page.url }}/krunner.png)
+![Krunner](/images/{{ page.url }}/krunner.png)
