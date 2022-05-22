@@ -20,7 +20,7 @@ This installs my desktop, default applications and other tools that I need. I'm 
 
 ## Rollback the OS
 
-One of the cool features that I have loved the idea of before I found out about NixOS is rolling back an update. We have similar features in [Fedora SilverBlue](https://docs.fedoraproject.org/en-US/fedora-silverblue/updates-upgrades-rollbacks/) and how NixOs does it is similar at least from the users POV. Every time that you run `nixos-rebuild switch` you create a new generation though you would have to have changed your "configuration.nix" file before running the command. You can read more about Generations [here](https://nixos.wiki/wiki/NixOS#Generations).
+One of the cool features that I have loved the idea of before I found out about NixOS is rolling back an update. We have similar features in [Fedora Silverblue](https://docs.fedoraproject.org/en-US/fedora-silverblue/updates-upgrades-rollbacks/) and how NixOs does it is similar at least from the users POV. Every time that you run `nixos-rebuild switch` you create a new generation though you would have to have changed your "configuration.nix" file before running the command. You can read more about Generations [here](https://nixos.wiki/wiki/NixOS#Generations).
 
 ## Spliting the user-wide and system-wide
 
