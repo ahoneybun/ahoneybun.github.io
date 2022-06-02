@@ -6,7 +6,7 @@ updated: 2022-05-22
 
 ## Automate the OS
 
-With NixOS you can setup your OS using the "coniguration.nix" file which is in "/etc/nixos" and mine enables the following:
+With NixOS you can setup your OS using the "configuration.nix" file which is in "/etc/nixos" and mine enables the following:
 
 - Xorg
 - OpenSSH
