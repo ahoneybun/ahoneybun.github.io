@@ -30,6 +30,10 @@
     <meta property="twitter:image" content="{{ site.image }}" />
   {% endif %}
 
+  {% if site.tags != "" %}
+  {% include collecttags.html %}
+  {% endif %}
+  
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="{{ site.twitter }}">
   <meta name="twitter:creator" content="{% if page.twitter %}{{ page.twitter }}{% else %}{{ site.twitter }}{% endif %}">
