@@ -14,8 +14,8 @@ Some information on the devices that I use daily.
     - Pop!_OS: 250GB Crucial M.2 SSD 
     - Backups: 1TB Western Digital 
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
-    - Keycaps: [LTC LavaCaps PBT Double Shot](https://www.amazon.com/dp/B09J1G8RGF/)
-    - Switches: Kailh Box Jade
+    - Keycaps: Default 
+    - Switches: Kailh Box Royal
 
 ## Laptop
 
@@ -23,8 +23,9 @@ Some information on the devices that I use daily.
     - CPU: Intel i5-8250U
     - GPU: Intel HD 620
     - RAM: 16GB DDR4 2400MHz
-    - Pop!_OS: 500GB 
-    - Backups: 250GB 
+    - NixOS: 500GB 
+    - Arch: 250GB 
+    - Backup: 1TB
 
 ## Mobile
 
