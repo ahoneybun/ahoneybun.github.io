@@ -6,7 +6,7 @@ updated: 2022-06-18
 
 ## Installing newer software
 
-Recently I ran into this [bug](https://github.com/NixOS/nixpkgs/issues/175512) with the stable (22.05 at this writting) of the ProtonVPN software in NixOS. A way to work around it was use the unstable version of the software which had the fix. I did a bit of Googling to find how to do that so I wanted to share what I found, this is the file that I use:
+Recently I ran into this [bug](https://github.com/NixOS/nixpkgs/issues/175512) with the stable (22.05 at this writing) of the ProtonVPN software in NixOS. A way to work around it was use the unstable version of the software which had the fix. I did a bit of Googling to find how to do that so I wanted to share what I found, this is the file that I use:
 
     { config, pkgs, ...}:
 
