@@ -1,5 +1,5 @@
 ---
-title: Unstable software
+title: Unstable software in NixOS
 description: Keeping the system stable with unstable packages
 updated: 2022-06-18
 ---
