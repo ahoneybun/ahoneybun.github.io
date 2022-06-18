@@ -1,8 +1,8 @@
 ---
 title: Welcome to NixOS
 description: This is my adventure so far
-updated: 2022-05-22
-tags: nixos 21.11 22.04
+updated: 2022-06-18
+tags: nixos 21.11 22.05
 ---
 
 ## Automate the OS
