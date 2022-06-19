@@ -1,7 +1,7 @@
 ---
 title: Review of the PineTime (sealed)
 description: My brief review of the PineTime
-updated: 2022-06-19
+updated: 2021-09-05
 tags: review
 ---
 
