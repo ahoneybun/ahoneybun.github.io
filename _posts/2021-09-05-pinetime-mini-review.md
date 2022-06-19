@@ -2,7 +2,7 @@
 title: Review of the PineTime (sealed)
 description: My brief review of the PineTime
 updated: 2022-06-19
-tag: review
+tags: review
 ---
 
 > *NOTE:* I've had the PineTime for about 2 weeks or so which means take this review lightly. If you have any questions please do reach out to me on Twitter!
