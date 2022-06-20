@@ -10,8 +10,8 @@ Some information on the devices that I use daily.
     - CPU: Intel i9-10920X
     - GPU: AMD RX 580 8GB Model
     - RAM: 32GB DDR4 3200MHz
-    - Arch: 500GB Samsung SSD 860 EVO
-    - Pop!_OS: 250GB Crucial M.2 SSD 
+    - NixOS: 500GB Samsung SSD 860 EVO
+    - Nothing Currently: 250GB Crucial M.2 SSD 
     - Backups: 1TB Western Digital 
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
@@ -25,7 +25,6 @@ Some information on the devices that I use daily.
     - RAM: 16GB DDR4 2400MHz
     - NixOS: 500GB 
     - Arch: 250GB 
-    - Backup: 1TB
 
 ## Mobile
 
