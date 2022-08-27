@@ -8,7 +8,7 @@ Some information on the devices that I use daily.
 - Custom Desktop
     - Motherboard: X299 AORUS Gaming 3 
     - CPU: Intel i9-10920X
-    - GPU: AMD RX 580 8GB Model
+    - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
     - NixOS: 500GB Samsung SSD 860 EVO
     - Nothing Currently: 250GB Crucial M.2 SSD 
@@ -17,14 +17,23 @@ Some information on the devices that I use daily.
     - Keycaps: Default 
     - Switches: Kailh Box Royal
 
-## Laptop
+## Laptops
 
 - [System76 Galago Pro](https://system76.com/laptops/galago) (galp3-b) 
     - CPU: Intel i5-8250U
     - GPU: Intel HD 620
+    - Display: 14" 1920x1080
     - RAM: 16GB DDR4 2400MHz
-    - NixOS: 500GB 
-    - Arch: 250GB 
+    - OS Drive: 500GB
+    - OS: Fedora Kinoite
+
+- [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
+    - CPU: Intel i7-9750H 
+    - GPU: NVIDIA RTX 2060
+    - Display: 15" 3840x2160 4K AMOLED
+    - RAM: 32GB DDR4 2666MHz
+    - OS Drive: 1TB M.2 NVMe
+    - OS: Nobara 36   
 
 ## Mobile
 
