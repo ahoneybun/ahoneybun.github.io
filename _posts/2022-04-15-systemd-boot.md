@@ -2,6 +2,7 @@
 title: systemd-boot and efibootmgr
 description: Making dual-booting easier!
 updated: 2022-04-15
+tags: tips-&-tricks
 ---
 
 ## systemd-boot
