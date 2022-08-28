@@ -63,5 +63,3 @@ I play **games** on PS5, Switch and Steam.
 <a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Add on Steam</a>
 
 </section>
-
-This website is hosted on <a href="https://www.linode.com/"><i class="fab fa-fw fa-linode"></i>Linode</a> . You can create your own Linode account using my [referral code](https://www.linode.com/?r=50012cb9448276b69b3d757fdf5aa3d4ad320064).
