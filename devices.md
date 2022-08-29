@@ -10,12 +10,16 @@ Some information on the devices that I use daily.
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
-    - NixOS: 500GB Samsung SSD 860 EVO
-    - Nothing Currently: 250GB Crucial M.2 SSD 
-    - Backups: 1TB Western Digital 
+    - Nobara 36: 500GB Samsung SSD 860 EVO
+    - Pop!_OS 22.04: 250GB Crucial M.2 SSD 
+    - Backups & Games: 1TB Western Digital 
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
     - Switches: Kailh Box Royal
+
+- Raspberry Pi 4B
+    - NixOS 22.11: 32GB SanDisk Micro SD card
+    - Backups: 250GB M.2 SSD
 
 ## Laptops
 
@@ -24,16 +28,14 @@ Some information on the devices that I use daily.
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
     - RAM: 16GB DDR4 2400MHz
-    - OS Drive: 500GB
-    - OS: Fedora Kinoite
+    - Fedora Kinoite: 500GB
 
 - [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
     - CPU: Intel i7-9750H 
     - GPU: NVIDIA RTX 2060
     - Display: 15" 3840x2160 4K AMOLED
     - RAM: 32GB DDR4 2666MHz
-    - OS Drive: 1TB M.2 NVMe
-    - OS: Nobara 36   
+    - Nobara 36: 1TB M.2 NVMe 
 
 ## Mobile
 
