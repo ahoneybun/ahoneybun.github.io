@@ -11,7 +11,7 @@ Some information on the devices that I use daily.
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
     - Nobara 36: 500GB Samsung SSD 860 EVO
-    - Pop!_OS 22.04: 250GB Crucial M.2 SSD 
+    - Pop!\_OS 22.04: 250GB Crucial M.2 SSD 
     - Backups & Games: 1TB Western Digital 
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
@@ -35,7 +35,7 @@ Some information on the devices that I use daily.
     - GPU: NVIDIA RTX 2060
     - Display: 15" 3840x2160 4K AMOLED
     - RAM: 32GB DDR4 2666MHz
-    - Nobara 36: 1TB M.2 NVMe 
+    - Pop!\_OS 22.04: 1TB M.2 NVMe 
 
 ## Mobile
 
