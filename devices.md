@@ -19,7 +19,7 @@ Some information on the devices that I use daily.
 
 - Raspberry Pi 4B
     - NixOS 22.11: 32GB SanDisk Micro SD card
-    - Backups: 250GB M.2 SSD
+    - Backups: 250GB PNY CS900 M.2 SATA SSD
 
 ## Laptops
 
@@ -28,7 +28,7 @@ Some information on the devices that I use daily.
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
     - RAM: 16GB DDR4 2400MHz
-    - Fedora Kinoite: 500GB
+    - Fedora Kinoite: 500GB M.2 NVMe
 
 - [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
     - CPU: Intel i7-9750H 
