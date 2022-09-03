@@ -10,9 +10,10 @@ Some information on the devices that I use daily.
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
-    - Nobara 36: 500GB Samsung SSD 860 EVO
-    - Pop!\_OS 22.04: 250GB Crucial M.2 SSD 
-    - Backups & Games: 1TB Western Digital 
+    - Nobara 36: 500GB Samsung M.2 NVMe SSD
+    - Pop!\_OS 22.04: 250GB Crucial M.2 SATA SSD
+    - Games: 500GB Samsung 2.5" SATA SSD
+    - Backups & Games: 1TB Western Digital 3.5" HDD
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
     - Switches: Kailh Box Royal
@@ -27,8 +28,8 @@ Some information on the devices that I use daily.
     - CPU: Intel i5-8250U
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
-    - RAM: 16GB DDR4 2400MHz
-    - Fedora Kinoite: 500GB M.2 NVMe
+    - RAM: 32GB DDR4 2400MHz
+    - No Drive
 
 - [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
     - CPU: Intel i7-9750H 
