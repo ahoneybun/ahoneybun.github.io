@@ -2,7 +2,7 @@
 title: Automounting a drive in NixOS
 description: Setting a drive to automount at boot
 updated: 2022-09-02
-tags: nixos 22.05 tips-&-tricks
+tags: nixos-22.05 nixos-22.11 tips-&-tricks
 ---
 
 After you create the mount point then we'll add that drive to our `/etc/nixos/configuration.nix':
