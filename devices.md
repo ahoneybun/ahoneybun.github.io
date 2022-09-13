@@ -40,7 +40,8 @@ Some information on the devices that I use daily.
 
 ## Mobile
 
-- [Google Fi Pixel 6 128GB](https://www.gsmarena.com/google_pixel_6-11037.php) 
+- [Google Fi Pixel 6 128GB](https://www.gsmarena.com/google_pixel_6-11037.php)
+- [Steam Deck 512GB](https://www.steamdeck.com/en/tech)
 - [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
 - [PinePhone](https://pine64.com/product-category/pinephone/) (postmarket OS Edition 3GB) : [Review](https://ahoneycutt.me/blog/pinephone-review/)
 - [PineTime](https://pine64.com/product-category/pinetime-smartwatch/) : [Review](https://ahoneycutt.me/blog/pinetime-mini-review/)
