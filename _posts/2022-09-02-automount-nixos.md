@@ -14,6 +14,19 @@ After you create the mount point then we'll add that drive to our `/etc/nixos/co
     };
 ```
 
+> *NOTE:* You can find the UUID by using the `blkid` command, you will need to use `sudo` or change to the root user.
+
+```
+sudo blkid
+```
+
+or 
+
+```
+sudo -i
+blkid
+```
+
 then rebuild NixOS:
 
 ```
