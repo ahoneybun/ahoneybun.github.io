@@ -36,7 +36,7 @@ wget http.kali.org/dists/kali-dev/main/installer-arm64/current/images/device-tre
 Then replace it:
 
 ```
-sudo mv rk3399-pinebook-pro.dtb /mnt/boot/dtb/
+sudo mv rk3399-pinebook-pro.dtb /mnt/boot/dtb/rockchip/
 ```
 
 Now shutdown to remove the microSD card and reboot into the eMMC:
