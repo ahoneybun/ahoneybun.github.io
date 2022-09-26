@@ -44,3 +44,5 @@ Now shutdown to remove the microSD card and reboot into the eMMC:
 ```
 sudo shutdown now
 ```
+
+Credits: [https://forum.pine64.org/showthread.php?tid=17215](https://forum.pine64.org/showthread.php?tid=17215)
