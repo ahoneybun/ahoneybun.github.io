@@ -16,7 +16,7 @@ tags: pbp armbian
 2. Now write the image to the eMMC using this command:
 
 ```
-xzcat Armbian_22.08.1_Pinebook-pro_jammy_current_5.15.63.img.xz | sudo dd of=/dev/sdb bs=4M status=progress
+xzcat Armbian_22.08.1_Pinebook-pro_jammy_current_5.15.63.img.xz | sudo dd of=/dev/mmcblk2 bs=4M status=progress
 ```
 
 ## Mount the eMMC install
