@@ -30,7 +30,7 @@ sudo mount /dev/mmcblk2p1/
 From there download this replacement file using this command:
 
 ```
-wget http://http.kali.org/dists/kali-dev/main/installer-arm64/current/images/device-tree/rockchip/rk3399-pinebook-pro.dtb
+wget http.kali.org/dists/kali-dev/main/installer-arm64/current/images/device-tree/rockchip/rk3399-pinebook-pro.dtb
 ```
 
 Then replace it:
