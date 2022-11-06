@@ -8,6 +8,8 @@ title: Aaron Honeycutt
 
 I'm a **Happiness Architect** working at [system76](https://system76.com/).
 
+<a rel="me" href="https://mastodon.social/@fishfulpenguin">Mastodon</a>
+
 <section class="code card" markdown="1">
 ## Code & Collaboration
 
