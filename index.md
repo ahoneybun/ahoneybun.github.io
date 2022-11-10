@@ -52,13 +52,15 @@ I take photos from time to time.
 </section>
 
 <section class="gaming card" markdown="1">
-## Gaming
+## Gaming and Streaming
 
-I play **games** on PS5, Switch and Steam.
+I play **games** on PS5 and Steam. I stream on Twitch and upload the recording to YouTube.
+
+<a href="https://www.twitch.tv/ahoneybunn" class="read-more twitch"><i class="fa fa-fw fa-twitch"></i>Twitch</a>
+
+<a href="https://www.youtube.com/@ahoneybunn" class="read-more youtube"><i class="fa fa-fw fa-youtube-play"></i>YouTube</a>
 
 <a href="http://psnprofiles.com/ahoneybun" class="read-more psn"><i class="fa fa-fw fa-trophy"></i>See PSN profile</a>
-
-<a href="/switch" class="read-more switch"><i class="fab fa-fw fa-nintendo-switch"></i>Add on Nintendo Switch</a>
 
 <a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Add on Steam</a>
 
