@@ -39,7 +39,6 @@ I **write things** on the internet about tech, OSes and what I'm up to. I usuall
 
 <a rel="me" href="{{ site.mastodon }}" class="read-more mastodon"><i class="fab fa-fw fa-mastodon"></i>Follow on Mastodon</a>
 
-<a href="https://twitter.com/{{ site.twitter }}" class="read-more twitter"><i class="fab fa-fw fa-twitter"></i>See tweets</a>
 </section>
 
 <section class="photography card" markdown="1">
