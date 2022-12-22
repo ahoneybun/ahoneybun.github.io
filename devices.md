@@ -36,7 +36,7 @@ Some information on the devices that I use daily.
     - GPU: NVIDIA RTX 2060
     - Display: 15" 3840x2160 4K AMOLED
     - RAM: 32GB DDR4 2666MHz
-    - Kubuntu 22.04: 1TB M.2 NVMe 
+    - Pop!\_OS 22.04: 1TB M.2 NVMe 
     - NixOS 22.11: 500GB SATA SSD
 
 ## Mobile
