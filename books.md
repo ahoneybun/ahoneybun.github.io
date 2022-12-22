@@ -4,6 +4,11 @@ Links to some books that are useful for the below subjects (mostly Linux).
 
 ## Linux Desktop
 
+Beginning Ubuntu for Windows and Mac Users 3rd Edition :
+- [Amazon](https://www.amazon.com/gp/product/1484229991?tag=nhaines-20)
+- [Barnes & Noble](https://www.barnesandnoble.com/w/beginning-ubuntu-for-windows-and-mac-users-nathan-haines/1126983418)
+- [O'Reilly](https://www.oreilly.com/library/view/beginning-ubuntu-for/9781484289723/)
+
 The Official Ubuntu Book 9th Edition :
 - [Amazon](https://www.amazon.com/Official-Ubuntu-Book-Matthew-Helmke-ebook/dp/B01IFCKT96)
 - [Barnes & Noble](https://www.barnesandnoble.com/w/the-official-ubuntu-book-matthew-helmke/1124175070)
