@@ -28,4 +28,4 @@ To boot from a microSD card when using Tow-Boot is different then the default fi
 
 ![Phosh Settings](/images/{{ page.url }}/phosh-settings.png)
 
-![Phose Overview](/images/{{ page.url }}/phosh-settings.png)
+![Phose Overview](/images/{{ page.url }}/phosh-overview.png)
