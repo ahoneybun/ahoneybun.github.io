@@ -39,11 +39,11 @@ First we'll start with the great and the good in that order:
 | -------- | ------ |
 ![Settings](/images/{{ page.url }}/lollypop_settings.png)| ![Albums](/images/{{ page.url }}/lollypop_album-list.png) |
 
-Now the not so good, this repeats in this post and I think it has to do with the FilePicker itself not the application in question:
+Now the not so good, this repeats in this post and I think it has to do with the FilePicker itself not the application in question. Another issue which seems common is the fact that opening Settings or other features which you would expect be in the same application window creates a new window for itself.
 
-| Collection change |
-| ----------------- |
-| ![Collection Change](/images/{{ page.url }}/lollypop_collection_change.png) |
+| Collection change | Different Window |
+| ----------------- | ---------------- |
+| ![Collection Change](/images/{{ page.url }}/lollypop_collection_change.png) | ![Collection Change](/images/{{ page.url }}/lollypop_different-window.png) |
 
 ### Spot
 
