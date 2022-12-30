@@ -26,6 +26,6 @@ To boot from a microSD card when using Tow-Boot is different then the default fi
 
 ### Booting from Mobile NixOS 
 
-![](images/blog/pinephone-screenshots/phosh-settings.png)
+![Phosh Settings](images/blog/pinephone-screenshots/phosh-settings.png)
 
-![](images/blog/pinephone-screenshots/phosh-overview.png)
+![Phosh Overview](images/blog/pinephone-screenshots/phosh-overview.png)
