@@ -23,8 +23,8 @@ As we enter into the new year I'd like to document issues that are still present
 
 For some reason it brings up the keyboard which isn't needed for this application as it already has those buttons:
 
-| Main Window | Overview |
-| ----------- | -------- |
+| Main Window |
+| ----------- |
 | ![Main Window](/images/{{ page.url }}/calculator_keyboard.png) |
 
 ## Music
