@@ -1,7 +1,7 @@
 ---
 title: Mobile NixOS
 description: Running NixOS on mobile devices like the PinePhone
-updated: 2022-12-23
+updated: 2022-12-30
 tags: nixos 23.05
 ---
 
