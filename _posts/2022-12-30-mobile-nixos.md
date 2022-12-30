@@ -26,6 +26,37 @@ To boot from a microSD card when using Tow-Boot is different then the default fi
 
 ### Booting from Mobile NixOS 
 
-![Phosh Settings](/images/{{ page.url }}/phosh-settings.png)
+| Settings | Overview |
+| -------- | -------- |
+| ![Phosh Settings](/images/{{ page.url }}/phosh-settings.png) | ![Phose Overview](/images/{{ page.url }}/phosh-overview.png) |
 
-![Phose Overview](/images/{{ page.url }}/phosh-overview.png)
+### Making changes in the OS
+
+Similar to how you would edit a NixOS installation you would just edit the `/etc/nixos/configuration.nix` and this is true for Mobile NixOS as it is the OS at the heart. So let's do that below:
+
+```
+sudo -i
+nano /etc/nixos/configuration.nix
+```
+
+In this example I'll add some applications that will be handy both when I SSH into the system and use it:
+
+    packages = with pkgs; [
+      gnome.gnome-clocks
+      grim
+      portfolio-filemanager
+    ];
+  };
+
+Then we'll enable SSH to log into the phone remotely:
+
+  # SSH
+  services.openssh = {
+    enable = true;
+    };
+
+And finally we'll set our timezone:
+
+  time.timeZone = "America/Denver";
+
+Now we'll save (with Ctrl+O and Enter) and close nano (with Ctrl+X).
