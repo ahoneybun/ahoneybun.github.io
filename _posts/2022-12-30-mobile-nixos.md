@@ -41,22 +41,28 @@ nano /etc/nixos/configuration.nix
 
 In this example I'll add some applications that will be handy both when I SSH into the system and use it:
 
+```
     packages = with pkgs; [
       gnome.gnome-clocks
       grim
       portfolio-filemanager
     ];
   };
+```
 
 Then we'll enable SSH to log into the phone remotely:
 
+```
   # SSH
   services.openssh = {
     enable = true;
     };
+```
 
 And finally we'll set our timezone:
 
+```
   time.timeZone = "America/Denver";
+```
 
 Now we'll save (with Ctrl+O and Enter) and close nano (with Ctrl+X).
