@@ -5,6 +5,8 @@ updated: 2022-12-23
 tags: nixos 23.05
 ---
 
+# Mobile NixOS
+
 ## Installing Tow-Boot
 
 Tow-Boot instead of U-Boot (you can read the differences [here](https://github.com/Tow-Boot/Tow-Boot/blob/released/doc/differences-from-u-boot.md)) so we'll need to make sure we install it on the eMMC on the PinePhone by using the release file from their [Github here](https://github.com/Tow-Boot/Tow-Boot/releases). For the default PinePhone (non-Pro) we would use pine64-pinephoneA64-2021.10-005.tar.xz from there then extract the archive there are steps for flashing the device [here](https://tow-boot.org/devices/pine64-pinephoneA64.html). 
@@ -22,3 +24,8 @@ To boot from a microSD card when using Tow-Boot is different then the default fi
 3. Choice which interface to use (GNOME Phosh or Plasma Mobile)
 4. Wait for a while!
 
+### Booting from Mobile NixOS 
+
+![](images/blog/pinephone-screenshots/phosh-settings.png)
+
+![](images/blog/pinephone-screenshots/phosh-overview.png)
