@@ -1,8 +1,10 @@
-# Channels
+# Aaron's Twitch
 
-## Twitch will be where I stream live and [here](https://www.twitch.tv/ahoneybunn) it is
+## Channels
 
-## YouTube will be where I upload the recording if you miss the stream and [here](https://www.youtube.com/@ahoneybunn) it is
+### Twitch will be where I stream live and [here](https://www.twitch.tv/ahoneybunn) it is
+
+### YouTube will be where I upload the recording if you miss the stream and [here](https://www.youtube.com/@ahoneybunn) it is
 
 ## Pay Aaron
 
