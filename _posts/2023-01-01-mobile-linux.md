@@ -9,6 +9,7 @@ tags: nixos mobile-linux
 
 As we enter into the new year I'd like to document issues that are still present on this platform (screenshots will be from NixOS on a PinePhone). In this list will be pretty standard applications that most folks use on their mobile devices like below:
 
+- Browser
 - Calculator
 - Music
 - Podcasts
@@ -16,6 +17,20 @@ As we enter into the new year I'd like to document issues that are still present
 - Books
 - News Feeds
 - Social Media
+
+## Browser
+
+### GNOME Web
+
+For some reason the cursor or something like that is over the address which made it difficult to type:
+
+| Address bar |
+| ----------- |
+| ![GNOME Web enter address](/images/{{ page.url }}/gnome-web_enter-address.png)
+
+| google.com | wsj.com |
+| ---------- | ----
+| ![GNOME Web Google](/images/{{ page.url }}/gnome-web_google-test.png) | ![GNOME Web Wall Street Journal](/images/{{ page.url }}/gnome-web_wsj-test.png) |
 
 ## Calculator
 
@@ -47,7 +62,7 @@ Now the not so good, this repeats in this post and I think it has to do with the
 
 ### Spot
 
-Everything looks good and behaves like one would expect other then the Settings like other application as you have a whole new window:
+Everything looks good and behaves like one would expect other then the Settings like other application as you have a whole new window. The application also doesn't seemt to save Spotify login though not sure if that is the application, Phosh or Mobile NixOS:
 
 | Login | Default View |
 | ----- | ------------ |
@@ -113,6 +128,8 @@ This starts out looking great and continues until you hit the FilePicker diaglog
 
 ### Tootle
 
-| Settings | Overview |
-| -------- | -------- |
-| ![Phosh Settings](/images/{{ page.url }}/phosh-settings.png) | ![Phose Overview](/images/{{ page.url }}/phosh-overview.png) |
+The main window doesn't scale and once the browser (GNOME Web) in this case) loaded the keyboard did not pop up and once I forced it to I would still not type.
+
+| Add Account | Login Account|
+| ----------- | ------------ |
+| ![Tootle Add Account](/images/{{ page.url }}/tootle_add-account.png) | ![Tootle Login](/images/{{ page.url }}/tootle_login-browser.png) |
