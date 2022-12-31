@@ -1,4 +1,4 @@
-# Wishlist
+# Aaron's Wishlist
 
 Some cool stuff that I have my eyes on.
 
@@ -9,3 +9,7 @@ Some cool stuff that I have my eyes on.
 [ProtonMail](https://shop.protonmail.com/products/encrypted-man-t-shirt-by-protonmail)
 
 [Bitwarden](https://bitwarden-shop.myshopify.com/products/navy-shield-tee)
+
+## Games
+
+[Steam Wishlist](https://store.steampowered.com/wishlist/profiles/76561198046805542/#sort=order)
