@@ -25,7 +25,7 @@ For some reason it brings up the keyboard which isn't needed for this applicatio
 
 | Main Window |
 | ----------- |
-| ![Main Window](/images/{{ page.url }}/calculator_keyboard.png) |
+| ![GNOME Calculator Main Window](/images/{{ page.url }}/calculator_keyboard.png) |
 
 ## Music
 
@@ -37,15 +37,27 @@ First we'll start with the great and the good in that order:
 
 | Settings | Albums |
 | -------- | ------ |
-![Settings](/images/{{ page.url }}/lollypop_settings.png)| ![Albums](/images/{{ page.url }}/lollypop_album-list.png) |
+![Lollypop Settings](/images/{{ page.url }}/lollypop_settings.png)| ![Lollypop Albums](/images/{{ page.url }}/lollypop_album-list.png) |
 
 Now the not so good, this repeats in this post and I think it has to do with the FilePicker itself not the application in question. Another issue which seems common is the fact that opening Settings or other features which you would expect be in the same application window creates a new window for itself.
 
 | Collection change | Different Window |
 | ----------------- | ---------------- |
-| ![Collection Change](/images/{{ page.url }}/lollypop_collection_change.png) | ![Collection Change](/images/{{ page.url }}/lollypop_different-window.png) |
+| ![Lollypop Collection Change](/images/{{ page.url }}/lollypop_collection_change.png) | ![Lollypop Collection Add](/images/{{ page.url }}/lollypop_different-window.png) |
 
 ### Spot
+
+Everything looks good and behaves like one would expect other then the Settings like other application as you have a whole new window:
+
+| Login | Default View |
+| ----- | ------------ |
+![Spot Login](/images/{{ page.url }}/spot_login-prompt.png)| ![Spot Albums](/images/{{ page.url }}/spot_default-view.png) |
+
+Album views:
+
+| List | Cover |
+| ---- | ----- |
+| ![Spot Album List](/images/{{ page.url }}/spot_album-list.png) | ![Spot Album Cover](/images/{{ page.url }}/spot_album-view.png) |
 
 ## Podcasts
 
@@ -55,7 +67,7 @@ This works really well until you try to import a file for your podcasts that you
 
 | Importing | FilePicker |
 | --------- | ---------- |
-| ![Import Settings](/images/{{ page.url }}/podcast_import-window.png) |
+| ![GNOME Podcasts Import Settings](/images/{{ page.url }}/podcast_import-window.png) |
 
 ## Text Editor
 
@@ -65,23 +77,37 @@ While it looks great at the start it also has the same failing as the Podcast ap
 
 | Main Window | FilePicker |
 | ----------- | ---------- |
-| ![Main Window](/images/{{ page.url }}/marker.png) | ![Open Window](/images/{{ page.url }}/marker-open_window.png) |
+| ![Marker Main Window](/images/{{ page.url }}/marker.png) | ![Marker Open Window](/images/{{ page.url }}/marker-open_window.png) |
 
 ## Books
 
 ### Foliate
 
-| Settings | Overview |
-| -------- | -------- |
-| ![Phosh Settings](/images/{{ page.url }}/phosh-settings.png) | ![Phose Overview](/images/{{ page.url }}/phosh-overview.png) |
+The main application seems good until you look to the right where content is off screen a bit.
+
+| Main Window | Catalog |
+| ----------- | ------- |
+| ![Foliate Window](/images/{{ page.url }}/foliate_default.png) | ![Foliate Catalog](/images/{{ page.url }}/foliate_catalog.png) |
+
+This continues to the download window and import which are not scaled and go off the screen.
+
+| Download | Import |
+| -------- | ------- |
+| ![Foliate Download Window](/images/{{ page.url }}/foliate_download.png) | ![Foliate Import](/images/{{ page.url }}/foliate_import-window.png) |
 
 ## News Feeds
 
 ### GNOME Feeds
 
-| Settings | Overview |
-| -------- | -------- |
-| ![Phosh Settings](/images/{{ page.url }}/phosh-settings.png) | ![Phose Overview](/images/{{ page.url }}/phosh-overview.png) |
+This starts out looking great and continues until you hit the FilePicker diaglog window, the Settings also creates a new window.
+
+| Main Window | Settings |
+| ----------- | -------- |
+| ![Feeds Main Window](/images/{{ page.url }}/feeds_default.png) | ![Feeds Settings](/images/{{ page.url }}/feeds_settings.png) |
+
+| Add Feed | Import File |
+| -------- | ----------- |
+| ![Feeds Add Dialog](/images/{{ page.url }}/feeds_add-feed.png) | ![Feeds Import Window](/images/{{ page.url }}/feeds_import-window.png) |
 
 ## Social Media
 
