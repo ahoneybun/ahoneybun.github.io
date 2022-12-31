@@ -1,4 +1,4 @@
-# Devices
+# Aaron's Devices
 
 Some information on the devices that I use daily.
 
@@ -37,7 +37,7 @@ Some information on the devices that I use daily.
     - Display: 15" 3840x2160 4K AMOLED
     - RAM: 32GB DDR4 2666MHz
     - Pop!\_OS 22.04: 1TB M.2 NVMe 
-    - NixOS 22.11: 500GB SATA SSD
+    - Backups & Games: 500GB SATA SSD
 
 ## Mobile
 
