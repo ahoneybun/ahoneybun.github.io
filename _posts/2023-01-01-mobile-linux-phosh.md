@@ -87,8 +87,8 @@ GNOME Podcasts
 
 This works really well until you try to import a file for your podcasts that you bring from another device.
 
-| Importing | FilePicker |
-| --------- | ---------- |
+| Importing |
+| --------- |
 | ![GNOME Podcasts Import Settings](/images/{{ page.url }}/podcast_import-window.png) |
 
 ## Text Editor
