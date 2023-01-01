@@ -5,15 +5,14 @@ updated: 2023-01-01
 tags: nixos mobile-linux
 ---
 
-# UI/UX Issues
+## UI/UX Issues
 
 Below we'll most often see issues:
 
 - FilePicker
-- New windows for certain sections of applications like Settings
-- 
+- New windows for certain sections of applications like Settings 
 
-# Application Issues
+## Application Issues
 
 As we enter into the new year I'd like to document issues that are still present on this platform (screenshots will be from NixOS on a PinePhone). In this list will be pretty standard applications that most folks use on their mobile devices like below:
 
@@ -26,9 +25,9 @@ As we enter into the new year I'd like to document issues that are still present
 - News Feeds
 - Social Media
 
-## Browser
+### Browser
 
-### GNOME Web
+GNOME Web
 
 For some reason the cursor or something like that is over the address which made it difficult to type:
 
@@ -42,7 +41,7 @@ For some reason the cursor or something like that is over the address which made
 
 ## Calculator
 
-### GNOME Calculator
+GNOME Calculator
 
 For some reason it brings up the keyboard which isn't needed for this application as it already has those buttons:
 
@@ -54,7 +53,7 @@ For some reason it brings up the keyboard which isn't needed for this applicatio
 
 In this example we'll be using Lollypop and Spot (Spotify client):
 
-### Lollypop
+Lollypop
 
 First we'll start with the great and the good in that order:
 
@@ -68,7 +67,7 @@ Now the not so good, this repeats in this post and I think it has to do with the
 | ----------------- | ---------------- |
 | ![Lollypop Collection Change](/images/{{ page.url }}/lollypop_collection_change.png) | ![Lollypop Collection Add](/images/{{ page.url }}/lollypop_different-window.png) |
 
-### Spot
+Spot
 
 Everything looks good and behaves like one would expect other then the Settings like other application as you have a whole new window. The application also doesn't seemt to save Spotify login though not sure if that is the application, Phosh or Mobile NixOS:
 
@@ -84,7 +83,7 @@ Album views:
 
 ## Podcasts
 
-### GNOME Podcasts
+GNOME Podcasts
 
 This works really well until you try to import a file for your podcasts that you bring from another device.
 
@@ -94,7 +93,7 @@ This works really well until you try to import a file for your podcasts that you
 
 ## Text Editor
 
-### Marker
+Marker
 
 While it looks great at the start it also has the same failing as the Podcast application when you try to open a file with it:
 
@@ -104,7 +103,7 @@ While it looks great at the start it also has the same failing as the Podcast ap
 
 ## Books
 
-### Foliate
+Foliate
 
 The main application seems good until you look to the right where content is off screen a bit.
 
@@ -120,7 +119,7 @@ This continues to the download window and import which are not scaled and go off
 
 ## News Feeds
 
-### GNOME Feeds
+GNOME Feeds
 
 This starts out looking great and continues until you hit the FilePicker diaglog window, the Settings also creates a new window.
 
@@ -134,7 +133,7 @@ This starts out looking great and continues until you hit the FilePicker diaglog
 
 ## Social Media
 
-### Tootle
+Tootle/Tooth
 
 This application is no longer maintained but there is a new one that hasn't been packaged yet but it looks like it will be better! Here is a [link](https://github.com/GeopJr/Tooth) to it. 
 
