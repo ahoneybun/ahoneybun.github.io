@@ -136,8 +136,5 @@ This starts out looking great and continues until you hit the FilePicker diaglog
 
 ### Tootle
 
-The main window doesn't scale and once the browser (GNOME Web) in this case) loaded the keyboard did not pop up and once I forced it to I would still not type.
+This application is no longer maintained but there is a new one that hasn't been packaged yet but it looks like it will be better! Here is a [link](https://github.com/GeopJr/Tooth) to it. 
 
-| Add Account | Login Account|
-| ----------- | ------------ |
-| ![Tootle Add Account](/images/{{ page.url }}/tootle_add-account.png) | ![Tootle Login](/images/{{ page.url }}/tootle_login-browser.png) |
