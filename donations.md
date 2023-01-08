@@ -8,8 +8,8 @@
 
 ## PineTime
 
-[JF002 - PineTime](https://en.liberapay.com/JF002/)
+[JF002 - InfiniTime](https://github.com/InfiniTimeOrg/InfiniTime)
 
 ## CopyQ
 
-[hluk - CopyQ](https://en.liberapay.com/CopyQ/)
+[hluk - CopyQ](https://github.com/hluk/CopyQ)
