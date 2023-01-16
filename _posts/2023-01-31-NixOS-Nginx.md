@@ -1,7 +1,7 @@
 ---
 title: Setting up Nginx on NixOS
 description: This is my adventure so far
-updated: 2023-01-16
+updated: 2023-01-31
 tags: nixos nixos-22.11
 ---
 
