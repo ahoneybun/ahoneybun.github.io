@@ -46,3 +46,8 @@ This part took some trial and error for me as I haven't used much of Nginx in an
 ```
 
 
+Now we should be able build this configuration and get a certificate fromm ACME:
+
+```
+sudo nixos-rebuild --switch
+```
