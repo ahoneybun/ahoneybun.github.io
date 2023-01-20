@@ -41,3 +41,12 @@ We can test the connection with this command:
 ping -c 3 google.com
 ```
 
+## Off the main road
+
+From here we will close the installer as it did not work for me with an error message about installing the systemd-boot loader so I used my own installer which is below:
+
+https://gitlab.com/ahoneybun/nyxi-installer/-/tree/main-pbp
+
+be sure to use the main-pbp branch and you may want to edit the `configuration.nix` file as I have my hashed password in there with my set username, you can use the steps in the README to create your own hashed password. If not you set the root password at the end of the installation which can be used to change the password and/or create a new user either way, this is the `configuration.nix` that I use for the Pinebook Pro:
+
+https://gitlab.com/ahoneybun/nix-configs/-/blob/main/systems/pinebook-pro.nix
