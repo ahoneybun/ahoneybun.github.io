@@ -25,7 +25,10 @@ wpa_cli
 
 When successfully connected, you should see a line such as this one
 
+```
 <3>CTRL-EVENT-CONNECTED - Connection to 32:85:ab:ef:24:5c completed [id=0 id_str=]
+```
+
 you can now leave wpa_cli by typing quit.
 
 [Source](https://nixos.org/manual/nixos/stable/index.html#sec-installation-booting-networking)
