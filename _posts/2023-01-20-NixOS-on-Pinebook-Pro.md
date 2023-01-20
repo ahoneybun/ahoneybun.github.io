@@ -1,7 +1,7 @@
 ---
 title: Installing NixOS on the Pinebook Pro
 description: Getting the server up and running
-updated: 2023-01-31
+updated: 2023-01-20
 tags: nixos nixos-22.11
 ---
 
