@@ -50,3 +50,5 @@ https://gitlab.com/ahoneybun/nyxi-installer/-/tree/main-pbp
 be sure to use the main-pbp branch and you may want to edit the `configuration.nix` file as I have my hashed password in there with my set username, you can use the steps in the README to create your own hashed password. If not you set the root password at the end of the installation which can be used to change the password and/or create a new user either way, this is the `configuration.nix` that I use for the Pinebook Pro:
 
 https://gitlab.com/ahoneybun/nix-configs/-/blob/main/systems/pinebook-pro.nix
+
+Once the installation is done (after we set the root password) we can reboot, please note that the boot time is rather long and the display might flicker a bit. 
