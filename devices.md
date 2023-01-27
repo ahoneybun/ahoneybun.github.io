@@ -24,7 +24,7 @@ Some information on the devices that I use daily.
 
 ## Laptops
 
-- [System76 Galago Pro](https://system76.com/laptops/galago) (galp3-b) 
+- [System76 Galago Pro](https://system76.com/laptops/galago) [galp3-b](https://support.system76.com/service-manuals/pdfs/Galago/galp3-service-manual.pdf)
     - CPU: Intel i5-8250U
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
