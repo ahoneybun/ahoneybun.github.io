@@ -1,3 +1,7 @@
+---
+title: Devices
+---
+
 # Aaron's Devices
 
 Some information on the devices that I use daily.

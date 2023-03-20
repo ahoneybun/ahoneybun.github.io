@@ -1,3 +1,7 @@
+---
+title: Wishlist
+---
+
 # Aaron's Wishlist
 
 Some cool stuff that I have my eyes on.
