@@ -1,3 +1,7 @@
+---
+title: Donations
+---
+
 # Aaron's Donations
 
 ## KDE
