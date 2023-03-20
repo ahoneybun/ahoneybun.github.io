@@ -1,5 +1,5 @@
 # Site-wide generic info (overridable per-page)
-title: ahoneycutt.me
+title: ahoneybun.net
 description: Aaron Honeycutt's website
 author: Aaron Honeycutt
 theme-color: "#002e99"
@@ -48,5 +48,5 @@ defaults:
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
+ - jekyll-feed
+ - jekyll-redirect-from
