@@ -1,6 +1,6 @@
 ---
 title: Hosting on NixOS
-description: 
+description: Running NixOS on Linode VPS for services like Jekyll and Mastodon
 updated: 2023-03-31
 tags: nixos nixos-22.11 nixos-server
 ---
