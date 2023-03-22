@@ -9,7 +9,7 @@ tags: nixos nixos-22.11 nixos-server
 
 I've been using Linode for a while and I used this [article](https://www.linode.com/docs/guides/install-nixos-on-linode/) to install NixOS on a Linode. Now I was using one large server (2GB plan) to host everything but I thought that splitting them up would be better so I just cloned my server onto another Linode using their great webUI! 
 
-## Two is better then one
+## Two is better than one
 
 Now that I have two servers I needed names for them, I've never been good with hostnames but I'm not using Mass Effect (Andromeda) characters for my systems. Mass Effect characters are for x86_64 systems and Andromeda characters for ARM64 devices. The two servers themselves are names after Reapers so sovereign and harbinger!
 
