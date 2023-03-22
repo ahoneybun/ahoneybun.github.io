@@ -7,7 +7,15 @@ tags: nixos nixos-22.11 nixos-server
 
 ## Installing on Linode
 
-I've been using Linode for a while and I used these [steps](https://www.linode.com/docs/guides/install-nixos-on-linode/).
+I've been using Linode for a while and I used this [article](https://www.linode.com/docs/guides/install-nixos-on-linode/) to install NixOS on a Linode. Now I was using one large server (2GB plan) to host everything but I thought that splitting them up would be better so I just cloned my server onto another Linode using their great webUI! 
+
+## Two is better then one
+
+Now that I have two servers I needed names for them, I've never been good with hostnames but I'm not using Mass Effect (Andromeda) characters for my systems. Mass Effect characters are for x86_64 systems and Andromeda characters for ARM64 devices. The two servers themselves are names after Reapers so sovereign and harbinger!
+
+### Hydra 
+
+The hardest part of starting for me was understanding DNS and HTTPS setup, this included using Nginx to reverse proxy a locally running service like [Hydra](https://github.com/NixOS/hydra). I was able to get this working with this [configuration](https://gitlab.com/ahoneybun/nix-configs/-/blob/main/dev/hydra-ahoneybun-net.nix) this allows it to be viewed from https://hydra.ahoneybun.net (it is currently off as I was just testing). 
 
 ### Mastodon
 
