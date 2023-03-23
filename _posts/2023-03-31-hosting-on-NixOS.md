@@ -27,7 +27,7 @@ Once that was added and I rebuilt `nixos-rebuild` everything worked as it should
 
 ### Mastodon
 
-One issue with my configuration is that I don't have SMTP working so confirmation emails are not sent out. To workaround this I can confirm the account using `tootctl` on the server itself like this:
+Setting up Mastodon on NixOS was just using this [wiki](https://nixos.wiki/wiki/Mastodon) page and then rebuild. One issue with my configuration is that I don't have SMTP working so confirmation emails are not sent out. To workaround this I can confirm the account using `tootctl` on the server itself like this:
 
 ```bash
 # Switch to root
