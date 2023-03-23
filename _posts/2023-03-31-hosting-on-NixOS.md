@@ -47,7 +47,7 @@ Source: https://page.romeov.me/posts/setting-up-mastodon-with-nixos/#adding-your
 
 ### Jekyll
 
-Getting Jekyll to build with my [site](https://github.com/ahoneybun/ahoneybun.net) took a while but these commands was able to build with my plugins:
+For a long time this site has been on GitHub pages but I wanted to change that (partly as I was having issues with how GitHub handles DNS) and this is the first blog post since that happened and now you're on a site hosted on NixOS! Getting Jekyll to build with my [site](https://github.com/ahoneybun/ahoneybun.net) took a while but these commands was able to build with my plugins:
 
 ```bash
 cd ahoneybun.net
