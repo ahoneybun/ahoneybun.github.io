@@ -17,6 +17,12 @@ Now that I have two servers I needed names for them, I've never been good with h
 
 The hardest part of starting for me was understanding DNS and HTTPS setup, this included using Nginx to reverse proxy a locally running service like [Hydra](https://github.com/NixOS/hydra). I was able to get this working with this [configuration](https://gitlab.com/ahoneybun/nix-configs/-/blob/main/dev/hydra-ahoneybun-net.nix) this allows it to be viewed from https://hydra.ahoneybun.net (it is currently off as I was just testing). 
 
+When I first tried setting Hydra up I was using the default settings for using a Nginx reverse proxy but it was not loading CSS and JavaScript, after hours of going though GitHub and Reddit I found this option which was the key:
+
+```nix
+recommendedProxySettings = true;
+```
+
 ### Mastodon
 
 One issue with my configuration is that I don't have SMTP working so confirmation emails are not sent out. To workaround this I can confirm the account using `tootctl` on the server itself like this:
