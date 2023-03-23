@@ -23,6 +23,8 @@ When I first tried setting Hydra up I was using the default settings for using a
 recommendedProxySettings = true;
 ```
 
+Once that was added and I rebuilt `nixos-rebuild` everything worked as it should have!
+
 ### Mastodon
 
 One issue with my configuration is that I don't have SMTP working so confirmation emails are not sent out. To workaround this I can confirm the account using `tootctl` on the server itself like this:
