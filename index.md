@@ -64,3 +64,10 @@ I play **games** on PS5 and Steam. I stream on Twitch and upload the recording t
 <a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Add on Steam</a>
 
 </section>
+
+<section class="patreon" markdown="1">
+## Patreon
+
+If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck for my Twitch or for general work such as my blog you can use this [link](https://www.patreon.com/user/membership?u=2491694).
+
+</section>
