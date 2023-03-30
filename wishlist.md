@@ -17,3 +17,7 @@ Some cool stuff that I have my eyes on.
 ## Games
 
 [Steam Wishlist](https://store.steampowered.com/wishlist/profiles/76561198046805542/#sort=order)
+
+## Streaming
+
+[Capture Card](https://www.amazon.com/EVGA-Capture-Certified-Nintendo-141-U1-CB20-LR/dp/B09D8VYLY7)
