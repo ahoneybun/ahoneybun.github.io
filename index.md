@@ -53,21 +53,14 @@ I take photos from time to time.
 <section class="gaming card" markdown="1">
 ## Gaming and Streaming
 
-I play **games** on PS5 and Steam. I stream on Twitch and upload the recording to YouTube.
+I play **games** on Steam and stream on Twitch if you want to pop by!
 
 <a href="https://www.twitch.tv/ahoneybunn" class="read-more twitch"><i class="fa fa-fw fa-twitch"></i>Twitch</a>
 
-<a href="https://www.youtube.com/@ahoneybunn" class="read-more youtube"><i class="fa fa-fw fa-youtube-play"></i>YouTube</a>
-
-<a href="http://psnprofiles.com/ahoneybun" class="read-more psn"><i class="fa fa-fw fa-trophy"></i>See PSN profile</a>
-
 <a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Add on Steam</a>
 
-</section>
+If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below.
 
-<section class="patreon" markdown="1">
-## Patreon
-
-If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck for my Twitch or for general work such as my blog you can use this [link](https://www.patreon.com/user/membership?u=2491694).
+<a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa fa-fw fa-patreon"></i>Patreon</a>
 
 </section>
