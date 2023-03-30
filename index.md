@@ -61,6 +61,6 @@ I play **games** on Steam and stream on Twitch if you want to pop by!
 
 If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below.
 
-<a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa fa-fw fa-patreon"></i>Patreon</a>
+<a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa-brands fa-patreon"></i>Patreon</a>
 
 </section>
