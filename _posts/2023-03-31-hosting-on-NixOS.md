@@ -1,6 +1,6 @@
 ---
 title: Hosting on NixOS
-description: Running NixOS on Linode VPS for services like Jekyll and Mastodon
+description: Running NixOS on Linode VPS for services like Jekyll, Mastodon and Nextcloud.
 updated: 2023-03-31
 tags: nixos nixos-22.11 nixos-server
 ---
@@ -25,6 +25,16 @@ recommendedProxySettings = true;
 
 Once that was added and I rebuilt `nixos-rebuild` everything worked as it should have!
 
+### Jekyll
+
+For a long time this site has been on GitHub pages but I wanted to change that (partly as I was having issues with how GitHub handles DNS) and this is the first blog post since that happened and now you're on a site hosted on NixOS! Getting Jekyll to build with my [site](https://github.com/ahoneybun/ahoneybun.net) took a while but these commands was able to build with my plugins:
+
+```bash
+cd ahoneybun.net
+nix-shell -p jekyll rubyPackages.webrick rubyPackages.jekyll-feed rubyPackages.jekyll-redirect-from
+jekyll build
+```
+
 ### Mastodon
 
 Setting up Mastodon on NixOS was just using this [wiki](https://nixos.wiki/wiki/Mastodon) page and then rebuild. One issue with my configuration is that I don't have SMTP working so confirmation emails are not sent out. To workaround this I can confirm the account using `tootctl` on the server itself like this:
@@ -43,16 +53,14 @@ mastodon-env tootctl accounts approve PUT-YOUR-USERNAME-HERE
 mastodon-env tootctl accounts modify PUT-YOUR-USERNAME-HERE --confirm
 ```
 
+Mastodon server: https://stoners.space/about
+
 Source: https://page.romeov.me/posts/setting-up-mastodon-with-nixos/#adding-your-user
 
-### Jekyll
+### Nextcloud
 
-For a long time this site has been on GitHub pages but I wanted to change that (partly as I was having issues with how GitHub handles DNS) and this is the first blog post since that happened and now you're on a site hosted on NixOS! Getting Jekyll to build with my [site](https://github.com/ahoneybun/ahoneybun.net) took a while but these commands was able to build with my plugins:
+I'm still working on getting this to not use SQLite which is the default and have better security plus other fixes but it is working [here](https://cloud.ahoneybun.net) and here is the [nix file](https://gitlab.com/ahoneybun/nix-configs/-/blob/main/web/cloud-ahoneybun-net.nix).
 
-```bash
-cd ahoneybun.net
-nix-shell -p jekyll rubyPackages.webrick rubyPackages.jekyll-feed rubyPackages.jekyll-redirect-from
-jekyll build
-```
+## Nix Files
 
 You can find all of my nix files [here](https://gitlab.com/ahoneybun/nix-configs)
