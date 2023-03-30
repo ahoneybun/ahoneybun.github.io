@@ -54,3 +54,5 @@ cd ahoneybun.net
 nix-shell -p jekyll rubyPackages.webrick rubyPackages.jekyll-feed rubyPackages.jekyll-redirect-from
 jekyll build
 ```
+
+You can find all of my nix files [here](https://gitlab.com/ahoneybun/nix-configs)
