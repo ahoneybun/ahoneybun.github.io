@@ -63,4 +63,4 @@ I'm still working on getting this to not use SQLite which is the default and hav
 
 ## Nix Files
 
-You can find all of my nix files [here](https://gitlab.com/ahoneybun/nix-configs)
+You can find all of my nix files [here](https://gitlab.com/ahoneybun/nix-configs).
