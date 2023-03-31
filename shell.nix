@@ -1,8 +1,8 @@
 { pkgs ? import <nixpkgs> {} }:
   pkgs.mkShell {
-    nativeBuildInputs = [ 
-       pkgs.jekyll
-       pkgs.rubyPackages.webrick
+    nativeBuildInputs = with pkgs; [
+       jekyll
+       rubyPackages.webrick
        rubyPackages.jekyll-feed
        rubyPackages.jekyll-redirect-from
        ];
