@@ -6,7 +6,7 @@ title: Devices
 
 Some information on the devices that I use daily.
 
-## Desktop 
+## Desktops 
 
 - [34" 3440x1440 Alienware UltraWide display](https://www.newegg.com/p/N82E16824260555)
 - Custom Desktop
@@ -43,6 +43,9 @@ Some information on the devices that I use daily.
     - Nobara 37: 1TB M.2 NVMe 
     - Backups & Games: 500GB SATA SSD
 
+- [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
+    - NixOS: 128GB eMMC
+
 ## Mobile
 
 - [Google Fi Pixel 6 128GB](https://www.gsmarena.com/google_pixel_6-11037.php)
@@ -50,4 +53,4 @@ Some information on the devices that I use daily.
 - [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
 - [PinePhone](https://pine64.com/product-category/pinephone/) (postmarket OS Edition 3GB) : [Review](https://ahoneycutt.me/blog/pinephone-review/)
 - [PineTime](https://pine64.com/product-category/pinetime-smartwatch/) : [Review](https://ahoneycutt.me/blog/pinetime-mini-review/)
-- [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
+
