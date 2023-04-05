@@ -46,6 +46,20 @@ Some information on the devices that I use daily.
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
     - NixOS: 128GB eMMC
 
+## Servers
+
+- [Linode - sovereign]
+    - CPU: AMD EPYC 7713 (1) @ 1.999GHz 
+    - GPU: Vendor 1234 Device 1111 
+    - RAM: 2GB
+    - NixOS 22.11: 50GB
+
+- [Linode - harbinger]
+    - CPU: AMD EPYC 7713 (1) @ 1.999GHz 
+    - GPU: Vendor 1234 Device 1111 
+    - RAM: 1GB
+    - NixOS 22.11: 25GB
+
 ## Mobile
 
 - [Google Fi Pixel 6 128GB](https://www.gsmarena.com/google_pixel_6-11037.php)
