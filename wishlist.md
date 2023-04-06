@@ -6,6 +6,10 @@ title: Wishlist
 
 Some cool stuff that I have my eyes on.
 
+## Streaming
+
+[Capture Card](https://www.amazon.com/EVGA-Capture-Certified-Nintendo-141-U1-CB20-LR/dp/B09D8VYLY7)
+
 ## Shirts
 
 [GoL](https://gamingonlinux.myspreadshop.co.uk/gol+logo-A618a676f289e67627e1a923e?productType=812&sellable=4wa5lGeqaYFga5wQvE08-812-7&appearance=39)
@@ -18,6 +22,6 @@ Some cool stuff that I have my eyes on.
 
 [Steam Wishlist](https://store.steampowered.com/wishlist/profiles/76561198046805542/#sort=order)
 
-## Streaming
+## Homelab
 
-[Capture Card](https://www.amazon.com/EVGA-Capture-Certified-Nintendo-141-U1-CB20-LR/dp/B09D8VYLY7)
+[Orange Pi 5](https://www.amazon.com/Orange-Pi-Rockchip-Computer-Development/dp/B0BLXWXSQQ/)
