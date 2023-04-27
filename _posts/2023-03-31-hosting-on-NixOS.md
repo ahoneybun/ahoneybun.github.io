@@ -1,7 +1,7 @@
 ---
 title: Hosting on NixOS
 description: Running NixOS on Linode VPS for services like Jekyll, Mastodon and Nextcloud.
-updated: 2023-03-31
+updated: 2023-04-27
 tags: nixos nixos-22.11 nixos-server
 ---
 
@@ -32,6 +32,14 @@ For a long time this site has been on GitHub pages but I wanted to change that (
 ```bash
 cd ahoneybun.net
 nix-shell -p jekyll rubyPackages.webrick rubyPackages.jekyll-feed rubyPackages.jekyll-redirect-from
+jekyll build
+```
+
+I created a nix-shell file (in the repository) so that I can run these commands (from the root directory) to update the site once I make a change on GitHub:
+
+```bash
+git pull
+nix-shell
 jekyll build
 ```
 
