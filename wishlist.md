@@ -8,7 +8,7 @@ Some cool stuff that I have my eyes on.
 
 ## Streaming
 
-[Capture Card](https://www.amazon.com/EVGA-Capture-Certified-Nintendo-141-U1-CB20-LR/dp/B09D8VYLY7)
+[Amazon Wishlist](https://www.amazon.com/hz/wishlist/ls/2N948JJT4AZ64?ref_=wl_share)
 
 ## Shirts
 
