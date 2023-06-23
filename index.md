@@ -60,5 +60,3 @@ I take photos from time to time.
 <a rel="me" href="{{ site.pixelfed }}" class="read-more pixelfed"><i class="fas fa-fw fa-camera-retro"></i>View photos on PixelFed</a>
 
 </section>
-
-</section>
