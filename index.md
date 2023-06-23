@@ -44,11 +44,9 @@ I **write things** on the internet about tech, OSes and what I'm up to. I usuall
 <section class="gaming card" markdown="1">
 ## Gaming and Streaming
 
-I play **games** and stream them on Twitch if you want to pop by!
+I play **games** and stream them on Twitch if you want to pop by! <a href="https://www.twitch.tv/ahoneybunn" class="read-more twitch"><i class="fa fa-fw fa-twitch"></i>Twitch</a>
 
-<a href="https://www.twitch.tv/ahoneybunn" class="read-more twitch"><i class="fa fa-fw fa-twitch"></i>Twitch</a>
-
-I also send the recorded stream from gameplay videos to <a href="https://youtube.com/@ahoneybunn" class="read-more youtube"><i class="fa fa-fw fa-twitch"></i>YouTube</a>
+I also send the recorded stream from gameplay videos to <a href="https://youtube.com/@ahoneybunn" class="read-more youtube"><i class="fa fa-fw fa-youtube"></i>YouTube</a>
 
 If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below.
 
