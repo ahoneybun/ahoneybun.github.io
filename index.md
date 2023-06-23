@@ -41,6 +41,21 @@ I **write things** on the internet about tech, OSes and what I'm up to. I usuall
 
 </section>
 
+<section class="gaming card" markdown="1">
+## Gaming and Streaming
+
+I play **games** and stream them on Twitch if you want to pop by!
+
+<a href="https://www.twitch.tv/ahoneybunn" class="read-more twitch"><i class="fa fa-fw fa-twitch"></i>Twitch</a>
+
+I also send the recorded stream from gameplay videos to <a href="https://youtube.com/@ahoneybunn" class="read-more youtube"><i class="fa fa-fw fa-twitch"></i>YouTube</a>
+
+If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below.
+
+<a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa-brands fa-patreon"></i>Patreon</a>
+
+<a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Add on Steam</a>
+
 <section class="photography card" markdown="1">
 ## Photography
 
@@ -49,18 +64,5 @@ I take photos from time to time.
 <a rel="me" href="{{ site.pixelfed }}" class="read-more pixelfed"><i class="fas fa-fw fa-camera-retro"></i>View photos on PixelFed</a>
 
 </section>
-
-<section class="gaming card" markdown="1">
-## Gaming and Streaming
-
-I play **games** on Steam and stream on Twitch if you want to pop by!
-
-<a href="https://www.twitch.tv/ahoneybunn" class="read-more twitch"><i class="fa fa-fw fa-twitch"></i>Twitch</a>
-
-<a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Add on Steam</a>
-
-If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below.
-
-<a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa-brands fa-patreon"></i>Patreon</a>
 
 </section>
