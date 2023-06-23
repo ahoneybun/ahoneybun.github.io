@@ -52,6 +52,8 @@ If you want to become a patreon to donate towards the purchase of new hardware s
 
 <a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Steam account</a>
 
+</section>
+
 <section class="photography card" markdown="1">
 ## Photography
 
