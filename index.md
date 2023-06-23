@@ -48,11 +48,9 @@ I play **games** and stream them on Twitch if you want to pop by! <a href="https
 
 I also send the recorded stream from gameplay videos to <a href="https://youtube.com/@ahoneybunn" class="read-more youtube"><i class="fa fa-fw fa-youtube"></i>YouTube</a>
 
-If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below.
+If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below. <a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa-brands fa-patreon"></i>Patreon</a>
 
-<a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa-brands fa-patreon"></i>Patreon</a>
-
-<a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Add on Steam</a>
+<a href="http://steamcommunity.com/id/{{ site.steam }}/" class="read-more steam"><i class="fab fa-fw fa-steam-square"></i>Steam account</a>
 
 <section class="photography card" markdown="1">
 ## Photography
