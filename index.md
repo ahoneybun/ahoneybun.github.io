@@ -57,7 +57,7 @@ You can also add me on Steam if you want to send games over for me to play on st
 
 If you want to become a patreon to donate towards the purchase of new hardware such as a better microphone and webcam or a capture card/stream deck you can use the link below. <a href="https://www.patreon.com/user/membership?u=2491694" class="read-more patreon"><i class="fa-brands fa-patreon"></i>Patreon</a>
 
-If you want to make a one-time donation you can use <a href="https://ko-fi.com/ahoneybunn" class="read-more ko-fi"><i class="fa-brands fa-cup-togo"></i>Ko-Fi</a>
+If you want to make a one-time donation you can use <a href="https://ko-fi.com/ahoneybunn" class="read-more ko-fi"><i class="fa-regular fa-cup-togo"></i>"></i>Ko-Fi</a>
 
 </section>
 
