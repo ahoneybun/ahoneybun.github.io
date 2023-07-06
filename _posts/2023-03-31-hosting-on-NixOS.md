@@ -5,7 +5,7 @@ updated: 2023-07-06
 tags: nixos nixos-22.11 nixos-server
 
 comments:
-  id: 110669579704929526
+  id: 110669673878756587
 ---
 
 ## Installing on Linode
