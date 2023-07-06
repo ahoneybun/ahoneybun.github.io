@@ -25,6 +25,10 @@ twitch: ahoneybunn
 youtube: ahoneybunn
 twitter: "@fishfulpenguin" # user including @
 
+comments:
+  host: creatorstudio.space
+  username: ahoneybun
+
 # Settings
 permalink: /blog/:title/
 markdown: kramdown
