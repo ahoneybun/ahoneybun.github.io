@@ -42,11 +42,12 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
 
 <section id="comments" class="comments">
   <h2>Comments</h2>
-<p>Comment on this blog post by publicly replying to <a href="https://{{ host }}/@{{ username }}/{{ id }}">this Mastodon post</a> using a Mastodon or other ActivityPub/&ZeroWidthSpace;Fediverse account. Known non-private replies are displayed below.</p>
-  
+  <p>Comment on this blog post by publicly replying to <a href="https://{{ host }}/@{{ username }}/{{ id }}">this Mastodon post</a> using a Mastodon or other ActivityPub/&ZeroWidthSpace;Fediverse account. Known non-private replies are displayed below.</p>
+
   <div id="comments-wrapper">
     <p><small>No known comments, yet. Reply to <a href="https://{{ host }}/@{{ username }}/{{ id }}">this Mastodon post</a> to add your own!</small></p>
     <noscript><p>Loading comments relies on JavaScript. Try enabling JavaScript and reloading, or visit <a href="https://{{ host }}/@{{ username }}/{{ id }}">the original post</a> on Mastodon.</p></noscript>
+  </div>
 
   <script src="/js/purify.min.js"></script>
   <script>
@@ -54,14 +55,14 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
 
     function loadComments() {
       let commentsWrapper = document.getElementById("comments-wrapper");
-      let postUrl = "https://{{ host }}/api/v1/statuses/{{ id }}";
-      
-      fetch(postUrl)
+      let statusUrl = "https://{{ host }}/api/v1/statuses/{{ id }}";
+
+      fetch(statusUrl)
       .then(function(response) {
         return response.json();
       })
       .then(function(status) {
-        fetch(postUrl + "/context")
+        fetch(statusUrl + "/context")
         .then(function(response) {
           return response.json();
         })
@@ -78,13 +79,15 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
             data['descendants'].forEach(function(status) {
               if( status.account.display_name.length > 0 ) {
                 status.account.display_name = escapeHtml(status.account.display_name);
-                status.account.display_name = emojify(status.account.display_name, status.account.emojis);
+                status.account.display_name = emojify(
+                  status.account.display_name,
+                  status.account.emojis
+                );
               } else {
                 status.account.display_name = status.account.username;
               };
 
               let instance = "";
-              let verified = false;
               if( status.account.acct.includes("@") ) {
                 instance = status.account.acct.split("@")[1];
               } else {
@@ -97,7 +100,8 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
               }
 
               let verified = false;
-              if( {{ verified }}.includes(status.account.acct) ) {                verified = true;
+              if( {{ verified }}.includes(status.account.acct) ) {
+                verified = true;
               }
 
               status.content = emojify(status.content, status.emojis);
@@ -109,7 +113,10 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
               let avatarImg = document.createElement("img");
               avatarImg.className = "avatar";
               avatarImg.setAttribute("src", escapeHtml(status.account.avatar_static));
-              avatarImg.setAttribute("alt", `@${ status.account.username }@${ instance } avatar`);
+              avatarImg.setAttribute(
+                "alt",
+                `@${ status.account.username }@${ instance } avatar`
+              );
 
               let avatarPicture = document.createElement("picture");
               avatarPicture.appendChild(avatarSource);
@@ -119,13 +126,19 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
               avatar.className = "avatar-link";
               avatar.setAttribute("href", status.account.url);
               avatar.setAttribute("rel", "external nofollow");
-              avatar.setAttribute("title", `View profile at @${ status.account.username }@${ instance }`);
+              avatar.setAttribute(
+                "title",
+                `View profile at @${ status.account.username }@${ instance }`
+              );
               avatar.appendChild(avatarPicture);
 
               let instanceBadge = document.createElement("a");
               instanceBadge.className = "instance";
               instanceBadge.setAttribute("href", status.account.url);
-              instanceBadge.setAttribute("title", `@${ status.account.username }@${ instance }`);
+              instanceBadge.setAttribute(
+                "title",
+                `@${ status.account.username }@${ instance }`
+              );
               instanceBadge.setAttribute("rel", "external nofollow");
               instanceBadge.textContent = instance;
 
@@ -156,13 +169,28 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
 
               let main = document.createElement("main");
               main.setAttribute("itemprop", "text");
-              main.innerHTML = status.content;
+
+              if(status.sensitive == true || status.spoiler_text != "") {
+                let summary = document.createElement("summary");
+                if(status.spoiler_text == "") {
+                  status.spoiler_text == "Sensitive";
+                }
+                summary.innerHTML = status.spoiler_text;
+
+                let spoiler = document.createElement("details");
+                spoiler.appendChild(summary);
+                spoiler.innerHTML += status.content;
+
+                main.appendChild(spoiler);
+              } else {
+                main.innerHTML = status.content;
+              }
 
               let interactions = document.createElement("footer");
               if(status.favourites_count > 0) {
                 let faves = document.createElement("a");
                 faves.className = "faves";
-                /* FIXME: This is a hack and probably won't work w/non-Mastodon instances */
+                /* FIXME: This is a hack and doesn't work w/non-Mastodon instances */
                 faves.setAttribute("href", `${ status.url }/favourites`);
                 faves.setAttribute("title", `Favorites from ${ instance }`);
                 faves.textContent = status.favourites_count;
@@ -179,9 +207,41 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
               comment.appendChild(header);
               comment.appendChild(timestamp);
               comment.appendChild(main);
+
+              if(
+                status.card != null &&
+                status.card.image != null &&
+                !status.card.url.startsWith("{{ site.url }}")
+              ) {
+                let cardImg = document.createElement("img");
+                cardImg.setAttribute("src", status.card.image);
+
+                let cardTitle = document.createElement("h5");
+                cardTitle.innerHTML = status.card.title;
+
+                let cardDescription = document.createElement("p");
+                cardDescription.innerHTML = status.card.description;
+
+                let cardCaption = document.createElement("figcaption");
+                cardCaption.appendChild(cardTitle);
+                cardCaption.appendChild(cardDescription);
+
+                let cardFigure = document.createElement("figure");
+                cardFigure.appendChild(cardImg);
+                cardFigure.appendChild(cardCaption);
+
+                let card = document.createElement("a");
+                card.className = "card";
+                card.setAttribute("href", status.card.url);
+                card.setAttribute("rel", "external nofollow");
+                card.appendChild(cardFigure);
+
+                comment.appendChild(card);
+              }
+
               comment.appendChild(interactions);
 
-               if(op === true) {
+              if(op === true) {
                 comment.classList.add("op");
 
                 avatar.classList.add("op");
@@ -197,7 +257,7 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
                 );
               } else if(verified === true) {
                 comment.classList.add("verified");
-                 
+
                 avatar.classList.add("verified");
                 avatar.setAttribute(
                   "title",
