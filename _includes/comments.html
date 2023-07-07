@@ -17,7 +17,7 @@ Inspired by https://codeberg.org/jwildeboer/jwildeboersource/src/commit/45f9750b
 
     function loadComments() {
       let commentsWrapper = document.getElementById("comments-wrapper");
-      let postUrl = "https://{{ site.comments.host }}/api/v1/statuses/{{ page.comments.id }}";
+      let postUrl = "https://{{ site.comments.host.username }}/api/v1/statuses/{{ page.comments.id }}";
 
       fetch(postUrl)
       .then(function(response) {
