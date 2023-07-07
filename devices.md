@@ -23,7 +23,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - Switches: Kailh Box Royal
 
 - Raspberry Pi 4B
-    - NixOS 22.11: 128GB SanDisk Micro SD card
+    - NixOS 23.05: 128GB SanDisk Micro SD card
     - Backups: 250GB PNY CS900 M.2 SATA SSD
 
 ## Laptops
