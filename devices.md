@@ -8,6 +8,9 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 ## Desktops 
 
+<section class="code card" markdown="1">
+## Desktops
+
 - [34" 3440x1440 Alienware UltraWide display](https://www.newegg.com/p/N82E16824260555)
 - Custom Desktop
     - Motherboard: X299 AORUS Gaming 3 
@@ -25,6 +28,8 @@ Some information on the devices that I use daily. Donations for better hardware 
 - Raspberry Pi 4B
     - NixOS 23.05: 128GB SanDisk Micro SD card
     - Backups: 250GB PNY CS900 M.2 SATA SSD
+
+</section>
 
 ## Laptops
 
