@@ -17,7 +17,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - RAM: 32GB DDR4 3200MHz
     - Nobara 38: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Pop!\_OS 22.04: 500GB Samsung SSD 860 EVO M.2 SATA
-    - NixOS: 250GB Crucial MX500 2.5" SATA SSD
+    - NixOS: 250GB Crucial MX500 M.2 SATA
     - Backups & Games: 1TB Western Digital 3.5" HDD
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
