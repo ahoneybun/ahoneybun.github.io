@@ -6,8 +6,6 @@ title: Devices
 
 Some information on the devices that I use daily. Donations for better hardware such as replacing that 1TB HDD can be done though Twitch or though GPay (email me or reach me on Discord for more information)
 
-## Desktops 
-
 <section class="code card" markdown="1">
 ## Desktops
 
@@ -17,9 +15,9 @@ Some information on the devices that I use daily. Donations for better hardware 
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
-    - Nobara 38: 500GB Samsung M.2 NVMe SSD
-    - Pop!\_OS 22.04: 250GB Crucial M.2 SATA SSD
-    - Games: 500GB Samsung 2.5" SATA SSD
+    - Nobara 38: 500GB Samsung SSD 970 EVO M.2 NVMe
+    - Pop!\_OS 22.04: 500GB Samsung SSD 860 EVO M.2 SATA
+    - NixOS: 250GB Crucial MX500 2.5" SATA SSD
     - Backups & Games: 1TB Western Digital 3.5" HDD
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
