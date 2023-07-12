@@ -14,9 +14,9 @@ Some information on the devices that I use daily. Donations for better hardware 
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
-    - Nobara 38: 500GB Samsung SSD 970 EVO M.2 NVMe
+    - Nobara 38: 1TB SN720 M.2 NVMe
+    - Backups: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 500GB Samsung SSD 860 EVO M.2 SATA
-    - NixOS: 250GB Crucial MX500 M.2 SATA
     - Backups & Games: 1TB Western Digital 3.5" HDD
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
@@ -39,7 +39,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: NVIDIA RTX 2060
     - Display: 15.6" 3840x2160 4K AMOLED
     - RAM: 32GB DDR4 2666MHz
-    - Nobara 38: 1TB M.2 NVMe 
+    - NixOS: 250GB Crucial MX500 M.2 SATA
     - Backups & Games: 500GB SATA SSD
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
