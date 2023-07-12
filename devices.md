@@ -15,9 +15,8 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
     - Nobara 38: 1TB WD SN720 M.2 NVMe
-    - Backups: 500GB Samsung SSD 970 EVO M.2 NVMe
-    - Games: 500GB Samsung SSD 860 EVO M.2 SATA
-    - Backups & Games: 1TB Western Digital 3.5" HDD
+    - Games: 500GB Samsung SSD 970 EVO M.2 NVMe
+    - Backups: 500GB Samsung SSD 860 EVO M.2 SATA
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
     - Keycaps: Default 
     - Switches: Kailh Box Royal
