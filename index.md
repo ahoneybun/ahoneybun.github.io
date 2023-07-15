@@ -20,7 +20,7 @@ I'm a **Happiness Architect** working at [system76](https://system76.com/).
 <section class="talks card" markdown="1">
 ## Talks & Podcasts
 
-I sometimes appear on **podcasts** to talk about my work and thoughts.
+I sometimes appear on **talks** & **podcasts** to talk about my work and thoughts.
 
 <a href="https://linuxunplugged.com/guests/aaronhoneycutt" class="read-more lup"><i class="fa fa-fw fa-microphone"></i>Listen on Linux Unplugged</a>
 
