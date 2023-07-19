@@ -2,18 +2,16 @@
 title: Donations
 ---
 
-# Aaron's Donations
+If you want to donate towards the purchase of new hardware such as a better microphone, webcam, lighting, you can use the following options. 
 
-## KDE
+## Monthly
 
-![KDE 2022 Badge](../images/donations/badge_konqi.png)
+### [Patreon](https://www.patreon.com/user/membership?u=2491694)
 
-[KDE Fundraisers 2022](https://kde.org/fundraisers/yearend2022/)
+## One-Time
 
-## PineTime
+### [Ko-Fi](https://ko-fi.com/ahoneybunn)
 
-[JF002 - InfiniTime](https://github.com/InfiniTimeOrg/InfiniTime)
+## Either
 
-## CopyQ
-
-[hluk - CopyQ](https://github.com/hluk/CopyQ)
+### [Librepay](https://en.liberapay.com/ahoneybun/)

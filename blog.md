@@ -1,7 +1,6 @@
 ---
+title: Blog
 ---
-
-# Aaron's Blog
 
 A place for my thoughts on things, tips & tricks, and maybe a review or two.
 
