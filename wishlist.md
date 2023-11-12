@@ -16,7 +16,7 @@ Some cool stuff that I have my eyes on.
 
 [ProtonMail](https://shop.protonmail.com/products/encrypted-man-t-shirt-by-protonmail)
 
-[Bitwarden](https://bitwarden-shop.myshopify.com/products/navy-shield-tee)
+[Bitwarden](https://bitwarden-shop.myshopify.com/products/unisex-crewneck)
 
 ## Games
 
