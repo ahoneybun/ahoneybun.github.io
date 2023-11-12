@@ -15,6 +15,8 @@ I'm a **Happiness Architect** working at [system76](https://system76.com/).
 
 [<i class="fab fa-fw fa-gitlab"></i>Browse code on GitLab](https://gitlab.com/{{ site.gitlab_user }}){: .read-more.gitlab}
 
+[<i class="fab fa-fw fa-codeberg"></i>Browse code on Codeberg](https://codeberg.com/{{ site.gitlab_user }}){: .read-more.codeberg}
+
 </section>
 
 <section class="talks card" markdown="1">
