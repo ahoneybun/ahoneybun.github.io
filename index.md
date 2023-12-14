@@ -8,46 +8,26 @@ title: Aaron Honeycutt
 
 I'm a **Happiness Architect** working at [system76](https://system76.com/).
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: inline-flex; justify-content: space-between;">
 
-  <div style="flex-basis: 30%;">
+  <div style="flex-basis: 50%;">
     <h2>Code & Collaboration</h2>
+    <p>Some of my code either original or forked from another awesome person/project/community</p>
     <p><a href="https://github.com/ahoneybun"><i class="fab fa-fw fa-github"></i>Browse code on GitHub</a></p>
+    <p><a href="https://gitlab.com/ahoneybun"><i class="fab fa-fw fa-gitlab"></i>Browse code on GitHub</a></p>
   </div>
 
-  <div style="flex-basis: 30%;">
-    <h2>Column 2</h2>
-    <p>This is the content of the second column.</p>
-  </div>
-
-  <div style="flex-basis: 30%;">
-    <h2>Column 3</h2>
-    <p>This is the content of the third column.</p>
+  <div style="flex-basis: 50%;">
+    <h2>Talks & Podcasts</h2>
+    <p>I sometimes appear on <b>talks</b> & <b>podcasts</b> to talk about my work and thoughts.</p>
+    <ul>
+       <li><a href="https://linuxunplugged.com/guests/aaronhoneycutt" class="read-more lup"><i class="fa fa-fw fa-microphone"></i>Listen on Linux Unplugged</a></li>
+       <li><a href="https://www.linux4everyone.com/guests/aaron-honeycutt" class="read-more lup"><i class="fa fa-fw fa-microphone"></i>Listen on Linux 4 Everyone</a></li>
+       <li><a href="https://www.gamingonlinux.com/2022/05/an-interview-with-aaron-honeycutt-from-system76/" class="read-more lup"><i class="fa fa-fw fa-comments"></i>Read up on Gaming On Linux</a></li>
+    </ul>
   </div>
 
 </div>
-
-<section class="code card" markdown="1">
-## Code & Collaboration
-
-[<i class="fab fa-fw fa-github"></i>Browse code on GitHub](https://github.com/{{ site.github_user }}){: .read-more.github}
-
-[<i class="fab fa-fw fa-gitlab"></i>Browse code on GitLab](https://gitlab.com/{{ site.gitlab_user }}){: .read-more.gitlab}
-
-</section>
-
-<section class="talks card" markdown="1">
-## Talks & Podcasts
-
-I sometimes appear on **talks** & **podcasts** to talk about my work and thoughts.
-
-<a href="https://linuxunplugged.com/guests/aaronhoneycutt" class="read-more lup"><i class="fa fa-fw fa-microphone"></i>Listen on Linux Unplugged</a>
-
-<a href="https://www.linux4everyone.com/guests/aaron-honeycutt" class="read-more lup"><i class="fa fa-fw fa-microphone"></i>Listen on Linux 4 Everyone</a>
-
-<a href="https://www.gamingonlinux.com/2022/05/an-interview-with-aaron-honeycutt-from-system76/" class="read-more lup"><i class="fa fa-fw fa-comments"></i>Read up on Gaming On Linux</a>
-
-</section>
 
 <section class="writing card" markdown="1">
 ## Writing & Social
