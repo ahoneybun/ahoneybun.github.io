@@ -45,11 +45,20 @@ Some information on the devices that I use daily. Donations for better hardware 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
     - Armbian 23.11: 128GB eMMC 
 
-## Mobile
+## Tablets
+
+- [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
+
+## Phones
 
 - [Google Fi Pixel 6 128GB](https://www.gsmarena.com/google_pixel_6-11037.php)
-- [Steam Deck 512GB](https://www.steamdeck.com/en/tech)
-- [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
 - [PinePhone](https://pine64.com/product-category/pinephone/) (postmarket OS Edition 3GB) : [Review](https://ahoneycutt.me/blog/pinephone-review/)
-- [PineTime](https://pine64.com/product-category/pinetime-smartwatch/) : [Review](https://ahoneycutt.me/blog/pinetime-mini-review/)
 
+## Consoles
+  
+- [Steam Deck 512GB](https://www.steamdeck.com/en/tech)
+- [PS5 OG Disc Version](https://www.playstation.com/en-us/ps5/)
+
+## Misc 
+
+- [PineTime](https://pine64.com/product-category/pinetime-smartwatch/) : [Review](https://ahoneycutt.me/blog/pinetime-mini-review/)
