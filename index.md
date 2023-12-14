@@ -8,6 +8,25 @@ title: Aaron Honeycutt
 
 I'm a **Happiness Architect** working at [system76](https://system76.com/).
 
+<div style="display: flex; justify-content: space-between;">
+
+  <div style="flex-basis: 30%;">
+    <h2>Code & Collaboration</h2>
+    <p><a href="https://github.com/ahoneybun"><i class="fab fa-fw fa-github"></i>Browse code on GitHub</a></p>
+  </div>
+
+  <div style="flex-basis: 30%;">
+    <h2>Column 2</h2>
+    <p>This is the content of the second column.</p>
+  </div>
+
+  <div style="flex-basis: 30%;">
+    <h2>Column 3</h2>
+    <p>This is the content of the third column.</p>
+  </div>
+
+</div>
+
 <section class="code card" markdown="1">
 ## Code & Collaboration
 
