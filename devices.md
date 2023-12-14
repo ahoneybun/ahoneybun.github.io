@@ -15,7 +15,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
     - Nobara 38: 1TB WD SN720 M.2 NVMe
-    - Misc: 500GB Samsung SSD 970 EVO M.2 NVMe
+    - NixOS Unstable: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 1TB Samsung SSD 870 EVO 2.5" SATA
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
@@ -23,7 +23,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - Switches: Kailh Box Royal
 
 - Raspberry Pi 4B
-    - NixOS 23.05: 128GB SanDisk Micro SD card
+    - Home Assistant: 128GB SanDisk Micro SD card
     - Backups: 250GB PNY CS900 M.2 SATA SSD
 
 ## Laptops
@@ -43,15 +43,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - Backups & Games: 500GB SATA SSD
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
-    - NixOS: 128GB eMMC
-
-## Servers
-
-- [Linode - sovereign]
-    - CPU: AMD EPYC 7713 (1) @ 1.999GHz 
-    - GPU: Vendor 1234 Device 1111 
-    - RAM: 2GB
-    - NixOS 23.05: 50GB
+    - Armbian 23.11: 128GB eMMC 
 
 ## Mobile
 
