@@ -47,11 +47,12 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 ## Tablets
 
+- [Google Slate i5](https://support.google.com/pixelslate/answer/9131920?hl=en)
 - [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
 
 ## Phones
 
-- [Google Fi Pixel 6 128GB](https://www.gsmarena.com/google_pixel_6-11037.php)
+- [Google Fi Pixel 8 128GB](https://www.gsmarena.com/google_pixel_8-12546.php)
 - [PinePhone](https://pine64.com/product-category/pinephone/) (postmarket OS Edition 3GB) : [Review](https://ahoneycutt.me/blog/pinephone-review/)
 
 ## Consoles
