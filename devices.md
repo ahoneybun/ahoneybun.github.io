@@ -52,12 +52,12 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 ## Phones
 
-- [Google Fi Pixel 8 128GB](https://www.gsmarena.com/google_pixel_8-12546.php)
+- [Google Fi Pixel 8 128GB (Hazel color)](https://www.gsmarena.com/google_pixel_8-12546.php) with the [dbrand Grip case with X-RAY DARK]()https://dbrand.com/shop/grip/google-pixel-8-cases.
 - [PinePhone](https://pine64.com/product-category/pinephone/) (postmarket OS Edition 3GB) : [Review](https://ahoneycutt.me/blog/pinephone-review/)
 
 ## Consoles
   
-- [Steam Deck 512GB](https://www.steamdeck.com/en/tech)
+- [Steam Deck LCD 512GB](https://www.steamdeck.com/en/tech/deck)
 - [PS5 OG Disc Version](https://www.playstation.com/en-us/ps5/)
 
 ## Misc 
