@@ -1,4 +1,4 @@
-# Linux kernel
+## Linux kernel
 
 | Commands | What it does |
 |:--------:|:------------:|
@@ -7,12 +7,13 @@
 | sudo kernelstub -a "nvme_core.default_ps_max_latency_us=####" | [Change NVMe wake-up times](https://wiki.archlinux.org/title/Solid_state_drive/NVMe#Power_Saving_(APST)) |
 | sudo kernelstub -a "intel_idle.max_cstate=4" | [Change Intel C-State Level](https://www.kernel.org/doc/html/latest/admin-guide/pm/intel_idle.html) | 
 
-# Xorg (X11)
+## Xorg (X11)
+
 | Commands | What it does |
 |:--------:|:------------:|
 | xset -dpms | [Disable Monitor power saving](https://wiki.archlinux.org/title/Display_Power_Management_Signaling) |
 
-# systemd
+## systemd
 
 | Commands | What it does |
 |:--------:|:------------:|
@@ -44,21 +45,21 @@
 | systemd-analyze plot > boot_analysis.svg | Create a graphic of the boot time and process |
 | systemd-resolve –status | List network info like DNS Servers |
 
-## systemd v251+ (in Ubuntu 22.10+)
+### systemd v251+ (in Ubuntu 22.10+)
 
 | Commands | What it does |
 |:--------:|:------------:|
 | bootctl set-timeout TIMEOUT | Sets the boot loader menu timeout in seconds |
 | bootctl set-timeout-oneshot TIMEOUT | Set the boot loader menu timeout only for the next boot |
 
-# systemd v249 (Pop!_OS 22.04/Ubuntu 22.04)
+### systemd v249 (Pop!_OS 22.04/Ubuntu 22.04)
 
 | Commands | What it does |
 |:--------:|:------------:|
 | bootctl set-default ID | Sets the new boot device/target |
 | bootctl set-oneshot ID | Sets the new boot device/target for only the next boot |
 
-# efibootmgr
+## efibootmgr
 
 | Commands | What it does |
 |:--------:|:------------:|
@@ -68,7 +69,7 @@
 | sudo efibootmgr --timeout=5 | Add a 5 second timeout to boot |
 | sudo efibootmgr -b #### -B | Remove boot entry matching the #### |
 
-# GRUB
+## GRUB
 
 | Commands | What it does |
 |:--------:|:------------:|
@@ -105,7 +106,10 @@ https://wiki.archlinux.org/title/fwupd
 | dpkg --list | grep linux-image | List all installed kernels |
 | apt list --installed | grep packagename | Searches that package if it was installed using apt | 
 
-# sed
+## sed
+
+| Commands | What it does |
+| sudo sed -i "s#/dev/sda#$driveName#g" /tmp/disko-config.nix | Replaces a default value with the result of a variable |
 
 ## Arch
 
@@ -119,7 +123,7 @@ https://wiki.archlinux.org/title/fwupd
 |:--------:|:------------:|
 | pkgfile filename | files what package provides that file |
 
-# [flatpak](https://docs.flatpak.org/en/latest/using-flatpak.html)
+## [flatpak](https://docs.flatpak.org/en/latest/using-flatpak.html)
 
 | Commands | What it does |
 |:--------:|:------------:|
@@ -128,15 +132,15 @@ https://wiki.archlinux.org/title/fwupd
 | flatpak search | Search flatpak packages from sources |
 | flatpak remotes | List Flatpak remotes (other servers) |
 
-# Plasma
+## Plasma
 
 | Commands | What it does |
 |:--------:|:------------:|
 | kioclient exec path/to/desktop/file | Runs the .desktop file |
 
-# GNOME
+## GNOME
 
-## GSettings
+### GSettings
 
 | Commands | What it does |
 |:--------:|:------------:|
