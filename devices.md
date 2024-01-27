@@ -9,7 +9,7 @@ Some information on the devices that I use daily. Donations for better hardware 
 ## Desktops
 
 - [34" 3440x1440 Alienware UltraWide display](https://www.newegg.com/p/N82E16824260555)
-- Custom Desktop
+- [System76 nebula49 PC Case](https://system76.com/components/nebula49-1/configure)
     - Motherboard: X299 AORUS Gaming 3 
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
@@ -24,7 +24,6 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 - Raspberry Pi 4B
     - Home Assistant: 128GB SanDisk Micro SD card
-    - Backups: 250GB PNY CS900 M.2 SATA SSD
 
 ## Laptops
 
@@ -33,6 +32,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
     - RAM: 32GB DDR4 2400MHz
+    - NixOS: 250GB PNY CS900 M.2 SATA SSD
 
 - [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
     - CPU: Intel i7-9750H 
