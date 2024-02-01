@@ -15,7 +15,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: AMD RX 6600 8GB Model
     - RAM: 32GB DDR4 3200MHz
     - Nobara 38: 1TB WD SN720 M.2 NVMe
-    - NixOS Unstable: 500GB Samsung SSD 970 EVO M.2 NVMe
+    - NixOS 23.11: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 1TB Samsung SSD 870 EVO 2.5" SATA
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
 - [System76 Launch keyboard](https://system76.com/accessories/launch)
@@ -32,7 +32,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
     - RAM: 32GB DDR4 2400MHz
-    - NixOS: 250GB PNY CS900 M.2 SATA SSD
+    - NixOS 23.11: 250GB PNY CS900 M.2 SATA SSD
 
 - [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
     - CPU: Intel i7-9750H 
