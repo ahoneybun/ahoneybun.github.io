@@ -8,13 +8,14 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 ## Desktops
 
-- [34" 3440x1440 Alienware UltraWide display](https://www.newegg.com/p/N82E16824260555)
+- [32" 4K 3840x2160 acer display](https://www.acer.com/gb-en/monitors/business/cb2/pdp/UM.PB2EE.004)
 - [System76 nebula49 PC Case](https://system76.com/components/nebula49-1/configure)
     - Motherboard: X299 AORUS Gaming 3 
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
-    - RAM: 32GB DDR4 3200MHz
-    - Nobara 38: 1TB WD SN720 M.2 NVMe
+    - RAM: 48GB DDR4 3200MHz
+    - PSU: Corsair CX650M
+    - Nobara 39: 1TB WD SN720 M.2 NVMe
     - NixOS 23.11: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 1TB Samsung SSD 870 EVO 2.5" SATA
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
