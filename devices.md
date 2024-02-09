@@ -44,7 +44,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - Backups & Games: 500GB SATA SSD
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
-    - Armbian 23.11: 128GB eMMC 
+    - NixOS 23.11: 128GB eMMC 
 
 ## Tablets
 
