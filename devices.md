@@ -40,7 +40,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: NVIDIA RTX 2060
     - Display: 15.6" 3840x2160 4K AMOLED
     - RAM: 32GB DDR4 2666MHz
-    - NixOS: 250GB Crucial MX500 M.2 SATA
+    - Pop!_OS 22.04 LTS: 250GB Crucial MX500 M.2 SATA
     - Backups & Games: 500GB SATA SSD
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
