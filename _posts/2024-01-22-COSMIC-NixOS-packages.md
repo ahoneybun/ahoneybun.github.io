@@ -2,7 +2,7 @@
 title: Packaging up COSMIC applications in NixOS
 description: The work so far on my end in the nixpkgs repository
 updated: 2024-01-22
-tags: nixos nixos-23.11 nixos-24.05
+tags: nixos nixos-unstable nixos-23.11 nixos-24.05
 
 comments:
   id: 110669673878756587
@@ -16,12 +16,19 @@ Let's first start what COSMIC is and it's history, we'll look at the first blog 
 
 First started by [nyanbinary](https://github.com/nyabinary) in this [issue](https://github.com/NixOS/nixpkgs/issues/259641) on Oct 7th 2023 and has had amazing progress getting everything into the [nixpkgs repository](https://github.com/NixOS/nixpkgs). I've been working with the team in our [Matrix channel](https://matrix.to/#/#cosmic:nixos.org), I've been working on [COSMIC Edit](https://github.com/NixOS/nixpkgs/pull/265103), [COSMIC Term](https://github.com/NixOS/nixpkgs/pull/276959) and [COSMIC Files](https://github.com/NixOS/nixpkgs/pull/278745) and with the packaging of COSMIC applications on Nix/NixOS this [bug](https://github.com/NixOS/nixpkgs/pull/276072) was found and fixed!
 
+## Community-led Effort
+
+This is largely a community effort with help from [lilyinstarlight](https://github.com/lilyinstarlight) like this [PR](https://github.com/NixOS/nixpkgs/pull/276072) which will help other Rust projects in NixOS or [this PR](https://github.com/pop-os/libcosmic/commit/3aef16bf9ed7f0b2ffbaa46b0d60b1a663ebcbd7) from [nbdd0121](https://github.com/nbdd0121) which will with packaging of COSMIC for other distros then just NixOS!
+
 ## The fruits of this work
 
 Thanks to this work you can now use one of the following packaged applications in NixOS! (you may need to pull it from unstable depending on how recent the merge was):
 
-- COSMIC Edit (NixOS 23.11)
-- COSMIC Term (unstable so NixOS 24.05)
-- COSMIC Files (unstable so NixOS 24.05)
+- cosmic-edit (NixOS 23.11, newer version in unstable)
+- cosmic-settings (NixOS 23.11, newer version in unstable)
+- cosmic-term (unstable so NixOS 24.05)
+- cosmic-files (unstable so NixOS 24.05)
 
+## Work still to be done
 
+The major next step would be to have a module for COSMIC so that users can enable it similar to other Desktop Environments such as GNOME, Plasma and more! The progress for that is being tracked [here](https://github.com/NixOS/nixpkgs/pull/267099).
