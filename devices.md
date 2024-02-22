@@ -8,7 +8,7 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 ## Desktops
 
-- [32" 4K 3840x2160 acer display](https://www.acer.com/gb-en/monitors/business/cb2/pdp/UM.PB2EE.004)
+- [32" 4K 3840x2160 Acer display](https://www.acer.com/gb-en/monitors/business/cb2/pdp/UM.PB2EE.004)
 - [System76 nebula49 PC Case](https://system76.com/components/nebula49-1/configure)
     - Motherboard: X299 AORUS Gaming 3 
     - CPU: Intel i9-10920X
@@ -19,12 +19,13 @@ Some information on the devices that I use daily. Donations for better hardware 
     - NixOS 23.11: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 1TB Samsung SSD 870 EVO 2.5" SATA
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
-- [System76 Launch keyboard](https://system76.com/accessories/launch)
+- [System76 Launch keyboard (launch_1)](https://system76.com/accessories/launch)
     - Keycaps: Default 
-    - Switches: Kailh Box Royal
+    - Switches: Glorious Gateron Green
+- [Razer Naga X]
 
 - Raspberry Pi 4B
-    - Home Assistant: 128GB SanDisk Micro SD card
+    - OS: Nothing currently
 
 ## Laptops
 
@@ -51,11 +52,6 @@ Some information on the devices that I use daily. Donations for better hardware 
 - [Google Slate i5](https://support.google.com/pixelslate/answer/9131920?hl=en)
 - [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
 
-## Keyboard
-
-- [System76 launch_1](https://system76.com/accessories/launch)
-  - Keycaps: Default
-  - Switches: Glorious Gateron Green
 
 ## Phones
 
