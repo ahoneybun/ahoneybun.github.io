@@ -4,7 +4,7 @@ title: Devices
 
 # Aaron's Devices
 
-Some information on the devices that I use daily. Donations for better hardware such as replacing that 1TB HDD can be done though Twitch or though GPay (email me or reach me on Discord for more information)
+Some information on the devices that I use daily. Donations for better hardware can be done though Twitch or though GPay (email me or reach me on Discord for more information)
 
 ## Desktops
 
@@ -50,6 +50,12 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 - [Google Slate i5](https://support.google.com/pixelslate/answer/9131920?hl=en)
 - [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
+
+## Keyboard
+
+- [System76 launch_1](https://system76.com/accessories/launch)
+  - Keycaps: Default
+  - Switches: Glorious Gateron Green
 
 ## Phones
 
