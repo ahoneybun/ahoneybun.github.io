@@ -18,7 +18,11 @@ First started by [nyanbinary](https://github.com/nyabinary) in this [issue](http
 
 ## Community-led Effort
 
-This is largely a community effort with help from [lilyinstarlight](https://github.com/lilyinstarlight) like this [PR](https://github.com/NixOS/nixpkgs/pull/276072) which will help other Rust projects in NixOS or [this PR](https://github.com/pop-os/libcosmic/commit/3aef16bf9ed7f0b2ffbaa46b0d60b1a663ebcbd7) from [nbdd0121](https://github.com/nbdd0121) which will with packaging of COSMIC for other distros then just NixOS!
+This is largely a community effort with help from community members like:
+
+- [lilyinstarlight](https://github.com/lilyinstarlight) like this [PR](https://github.com/NixOS/nixpkgs/pull/276072) which will help other Rust projects in NixOS or [this PR](https://github.com/pop-os/libcosmic/commit/3aef16bf9ed7f0b2ffbaa46b0d60b1a663ebcbd7) from [nbdd0121](https://github.com/nbdd0121) which will with packaging of COSMIC for other distros then just NixOS!
+- nyabinary and [a-kenji](https://github.com/a-kenji) packaging up most of the COSMIC components like `cosmic-settings`, `cosmic-icons`, 
+- [alyssais](https://github.com/alyssais) with a few drive-by commits with the large [commit](https://github.com/NixOS/nixpkgs/pull/251365) to package `cosmic-comp`, `cosmic-panel` and `cosmic-applets`.
 
 If you want to join in to help feel free to join our [Matrix channel](https://matrix.to/#/#cosmic:nixos.org)!
 
@@ -30,6 +34,10 @@ Thanks to this work you can now use one of the following packaged applications i
 - cosmic-settings (NixOS 23.11, newer version in unstable)
 - cosmic-term (unstable so NixOS 24.05)
 - cosmic-files (unstable so NixOS 24.05)
+
+## Current state
+
+![COSMIC running on NixOS](/images/{{ page.url }}/NixOS-COSMIC-running.png)
 
 ## Work still to be done
 
