@@ -1,7 +1,7 @@
 ---
 title: Packaging up COSMIC applications in NixOS
-description: The work so far on my end in the nixpkgs repository
-updated: 2024-01-22
+description: The work so far to get COSMIC on NixOS
+updated: 2024-02-23
 tags: nixos nixos-unstable nixos-23.11 nixos-24.05
 
 comments:
