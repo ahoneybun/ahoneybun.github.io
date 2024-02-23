@@ -19,10 +19,11 @@ Some information on the devices that I use daily. Donations for better hardware 
     - NixOS 23.11: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 1TB Samsung SSD 870 EVO 2.5" SATA
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
+      
 - [System76 Launch keyboard (launch_1)](https://system76.com/accessories/launch)
     - Keycaps: Default 
     - Switches: Glorious Gateron Green
-- [Razer Naga X]
+- [Razer Naga X](https://www.razer.com/gaming-mice/razer-naga-x)
 
 - Raspberry Pi 4B
     - OS: Nothing currently
