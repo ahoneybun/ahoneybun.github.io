@@ -5,7 +5,7 @@ updated: 2024-02-23
 tags: nixos nixos-unstable nixos-23.11 nixos-24.05
 
 comments:
-  id: 110669673878756587
+  id: 111982847507337223
 ---
 
 ## From the beginning
