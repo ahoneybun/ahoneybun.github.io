@@ -37,17 +37,25 @@ Thanks to this work you can now use one of the following packaged applications i
 
 ## Current state
 
-![cosmic-session on NixOS](/images/{{ page.url }}/NixOS-COSMIC-running.png)
+| COSMIC Session running |
+| ---------------------- |
+| ![cosmic-session](/images/{{ page.url }}/NixOS-COSMIC-running.png) |
 
-![cosmic-applibrary on NixOS](/images/{{ page.url }}/cosmic-applibrary.png)
+| cosmic-applibrary | cosmic-launcher |
+| ----------------- | --------------- |
+| ![cosmic-applibrary](/images/{{ page.url }}/cosmic-applibrary.png) | ![cosmic-launcher](/images/{{ page.url }}/cosmic-launcher.png) |
 
-![cosmic-launcher on NixOS](/images/{{ page.url }}/cosmic-launcher.png)
+| cosmic-settings |
+| --------------- |
+| ![cosmic-settings](/images/{{ page.url }}/cosmic-settings.png) |
 
-![cosmic-settings on NixOS](/images/{{ page.url }}/cosmic-settings.png)
+| Tiling in COSMIC |
+| ---------------- |
+|![Tiling in COSMIC](/images/{{ page.url }}/cosmic-tiling.png) |
 
-![cosmic-tiling on NixOS](/images/{{ page.url }}/cosmic-tiling.png)
-
-![file dialogs](/images/{{ page.url }}/file-dialogs.jpeg)
+| File Dialogs |
+| ------------ |
+| ![file dialogs in COSMIC](/images/{{ page.url }}/file-dialogs.jpeg) |
 
 ## Work still to be done
 
