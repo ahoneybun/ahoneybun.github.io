@@ -16,7 +16,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - RAM: 48GB DDR4 3200MHz
     - PSU: Corsair CX650M
     - Nobara 39: 1TB WD SN720 M.2 NVMe
-    - NixOS 23.11: 500GB Samsung SSD 970 EVO M.2 NVMe
+    - NixOS 24.05: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 1TB Samsung SSD 870 EVO 2.5" SATA
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
       
@@ -35,7 +35,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
     - RAM: 32GB DDR4 2400MHz
-    - NixOS 23.11: 250GB PNY CS900 M.2 SATA SSD
+    - NixOS 24.05: 250GB PNY CS900 M.2 SATA SSD
 
 - [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
     - CPU: Intel i7-9750H 
@@ -46,7 +46,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - Backups & Games: 500GB SATA SSD
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
-    - NixOS 23.11: 128GB eMMC 
+    - NixOS 24.05: 128GB eMMC 
 
 ## Tablets
 
