@@ -37,13 +37,12 @@ Some information on the devices that I use daily. Donations for better hardware 
     - RAM: 32GB DDR4 2400MHz
     - NixOS 24.05: 250GB PNY CS900 M.2 SATA SSD
 
-- [HP OMEN 15"](https://support.hp.com/us-en/document/c06447685) (15-dh0015nr)
-    - CPU: Intel i7-9750H 
-    - GPU: NVIDIA RTX 2060
-    - Display: 15.6" 3840x2160 4K AMOLED
-    - RAM: 32GB DDR4 2666MHz
-    - Pop!_OS 22.04 LTS: 250GB Crucial MX500 M.2 SATA
-    - Backups & Games: 500GB SATA SSD
+- [Lenovo Thinkpad X13s](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019)
+    - CPU: Snapdragon® 8cx Gen 3 Compute Platform
+    - GPU: Integrated Qualcomm® Adreno™ 690 Graphics 
+    - Display: 13.3" 1920x1200 [Touch Screen]
+    - Ubuntu 24.04: 512 GB SSD M.2 2242 NVMe Gen 4
+    - RAM: 16GB LPDDR4X-4266MHz
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
     - NixOS 24.05: 128GB eMMC 
