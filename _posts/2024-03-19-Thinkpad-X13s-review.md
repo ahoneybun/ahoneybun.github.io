@@ -39,6 +39,8 @@ NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the
 
 ## The Good
 
+These are the items that are amazing and work really well.
+
 ### Screen
 
 This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). Video encoding seems to work with YouTube. 
@@ -65,13 +67,15 @@ It is a joy to use though it would be nicer if it was a little larger though per
 
 ## The Bad
 
+These are the items that don't make or break the system for most folks but are important to note their status.
+
 ### Streaming Websites
 
 While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself). 
 
 ## The Ugly
 
-Since this is a wonderful portable system not having the webcam working might be a deal-breaker for remote folks and such so it's under here.
+Here are the items that will most likely help you decide if this is a system for you.
 
 ### Camara
 
