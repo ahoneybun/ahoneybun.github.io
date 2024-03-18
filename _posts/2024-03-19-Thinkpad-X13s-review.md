@@ -49,13 +49,19 @@ This is nice and large even on a 13.3" display thanks to the 16:10 resolution of
 
 I was able to connect to two different networks without issues and Bluetooth worked without issue with my Pixel Buds-A.
 
-### Speakers and Headphones
+### Speakers
 
-First up is the speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire updates will help in the future but I'm not sure.
+The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire updates will help in the future but I'm not sure.
 
-Next is the headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result.
+### Ports
 
-Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this.
+#### USB-C ports
+
+Both ports support video out though my testing though only the port closest to the hinge supports USB-PD which is expected since it has the PD logo.
+
+#### Headphone port
+
+The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this.
 
 ### Fingerprint Reader
 
