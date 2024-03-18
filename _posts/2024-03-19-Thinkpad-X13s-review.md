@@ -23,17 +23,29 @@ Now before you get try booting an ISO you will need to do two things in the BIOS
 
 Now you might be able to leave Secure Boot on if you use Ubuntu or another distro that supports it but I did not test that in this review. These steps are from the Debian Wiki for this model which you can find [here](https://wiki.debian.org/InstallingDebianOn/Thinkpad/X13s#BIOS_configuration). 
 
-This is an updated table based on my testing on Ubuntu 23.10:
+This is an updated table based on my testing on Ubuntu 23.10/24.04:
 
 | Core Feature | Status |
 | ------------ | ------ |
-| Wi-Fi/Bluetooth | Wi-Fi works fine |
+| Wi-Fi/Bluetooth | Both work great |
 | Touchpad | Works great |
 | Fingerprint Reader | Works well |
 | Speakers | The speakers are really quiet but not sure if it is better on Windows either |
 | Headphone port | Works but has issues |
 | USB-C ports (including PD port) | Works as expected |
 | SIM Slot | Not tested | 
+
+NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the special keys other then for the screen brightness and volume work. I'll need to use a SIM to test if those buttons work but I doubt they do.
+
+## The good
+
+### Screen
+
+This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). Video encoding seems to work with YouTube. 
+
+### Wi-Fi and Bluetooth
+
+I was able to connect to two different networks without issues and Bluetooth worked without issue with my Pixel Buds-A.
 
 ### Speakers and Headphones
 
@@ -50,6 +62,16 @@ To my suprise the fingerprint reader works well and I can enroll my fingers! It 
 ### Touchpad
 
 It is a joy to use though it would be nicer if it was a little larger though perhaps that'll happen if they make a 14" or larger model (this is 13.3"). It is certainly larger then my last laptop that I purchased and used for years (still do as a great backup machine).
+
+## The bad
+
+### Streaming Websites
+
+While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself). 
+
+## The ugly
+
+Since this is a wonderful portable system not having the webcam working might be a deal-breaker for remote folks and such so it's under here.
 
 ### Camara
 
