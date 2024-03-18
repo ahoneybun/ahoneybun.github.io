@@ -34,6 +34,13 @@ This is an updated table based on my testing on Ubuntu 23.10:
 | USB-C ports (including PD port) | Works as expected |
 | SIM Slot | Not tested | 
 
+### Speakers and Headphones
+
+First up is the speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire updates will help in the future but I'm not sure.
+
+Next is the headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result.
+
+Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this.
 
 ### Touchpad
 
