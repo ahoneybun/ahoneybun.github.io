@@ -2,7 +2,7 @@
 title: Review with Linux
 description: This review is mainly with Ubuntu 23.10
 updated: 2024-03-19
-tags: 
+tags: ubuntu ubuntu-23.10 ubuntu-24.04 
 
 comments:
   id: 111983313766307308
@@ -29,8 +29,9 @@ This is an updated table based on my testing on Ubuntu 23.10:
 | ------------ | ------ |
 | Wi-Fi/Bluetooth | Wi-Fi works fine |
 | Touchpad | Works great |
-| Sound | The speakers are really quiet but not sure if it is better on Windows either |
-| Headphone port | Works |
+| Fingerprint Reader | Works well |
+| Speakers | The speakers are really quiet but not sure if it is better on Windows either |
+| Headphone port | Works but has issues |
 | USB-C ports (including PD port) | Works as expected |
 | SIM Slot | Not tested | 
 
@@ -41,6 +42,10 @@ First up is the speakers which are really low for some reason and do not get bet
 Next is the headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result.
 
 Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this.
+
+### Fingerprint Reader
+
+To my suprise the fingerprint reader works well and I can enroll my fingers! It even unlocks the system the system at the login screen too!
 
 ### Touchpad
 
