@@ -59,6 +59,8 @@ The speakers which are really low for some reason and do not get better even at 
 
 #### USB-C ports
 
+Spec: 2 x USB-C 3.2 Gen 2
+
 Both ports support video out though my testing though only the port closest to the hinge supports USB-PD which is expected since it has the PD logo.
 
 #### Headphone port
