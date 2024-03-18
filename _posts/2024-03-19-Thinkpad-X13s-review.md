@@ -81,6 +81,10 @@ These are the items that don't make or break the system for most folks but are i
 
 While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself). 
 
+| Brave | Vivaldi |
+| ----- | ------- |
+| ![Brave Widevine enabled](images/{{ page.url }}/brave-widevine.png) | ![Vivaldi Widevine enabled](images/{{ page.url }}/vivaldi-widevine.png) |
+
 ## The Ugly
 
 Here are the items that will most likely help you decide if this is a system for you.
