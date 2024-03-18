@@ -14,6 +14,8 @@ I purchased this system from [Amazon's Renewed Store](https://www.amazon.com/dp/
 
 ### Ubuntu support (general Linux support)
 
+![neofetch](images/{{ page.url }}/X13s-neofetch.png)
+
 Ubuntu has a custom image for this system which is nice until it can be merged into a general ARM64 image but with this platform it seems there is special settings that you need per device. This image is based on [Ubuntu 23.10](https://cdimage.ubuntu.com/ubuntu/releases/23.10.1/release/ubuntu-23.10.1-desktop-arm64+x13s.iso) but there are Noble Numbat (24.04) daily images as well [here](https://cdimage.ubuntu.com/daily-live/current/noble-desktop-arm64+x13s.iso) which is nice to see.
 
 Now before you get try booting an ISO you will need to do two things in the BIOS (which you can get to with F1 at boot):
