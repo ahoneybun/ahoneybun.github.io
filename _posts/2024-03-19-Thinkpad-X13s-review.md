@@ -1,6 +1,6 @@
 ---
-title: Review with Linux
-description: This review is mainly with Ubuntu 23.10
+title: A review of the Thinkpad X13s with Ubuntu Linux
+description: This review is mainly with Ubuntu 23.10 but a little on Ubuntu 24.04
 updated: 2024-03-19
 tags: ubuntu ubuntu-23.10 ubuntu-24.04 
 
