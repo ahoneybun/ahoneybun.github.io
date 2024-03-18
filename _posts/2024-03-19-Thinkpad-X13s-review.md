@@ -14,7 +14,7 @@ I purchased this system from [Amazon's Renewed Store](https://www.amazon.com/dp/
 
 ### Ubuntu support (general Linux support)
 
-Ubuntu has a custom image for this system which is nice until it can be merged into a general ARM64 image but with this platform it seems there is special settings that you need per device. This image is based on [Ubuntu 23.10](https://cdimage.ubuntu.com/ubuntu/releases/23.10.1/release/ubuntu-23.10.1-desktop-arm64+x13s.iso) but there are Noble Numbat daily images as well [here](https://cdimage.ubuntu.com/daily-live/current/noble-desktop-arm64+x13s.iso) which is nice to see.
+Ubuntu has a custom image for this system which is nice until it can be merged into a general ARM64 image but with this platform it seems there is special settings that you need per device. This image is based on [Ubuntu 23.10](https://cdimage.ubuntu.com/ubuntu/releases/23.10.1/release/ubuntu-23.10.1-desktop-arm64+x13s.iso) but there are Noble Numbat (24.04) daily images as well [here](https://cdimage.ubuntu.com/daily-live/current/noble-desktop-arm64+x13s.iso) which is nice to see.
 
 Now before you get try booting an ISO you will need to do two things in the BIOS (which you can get to with F1 at boot):
 
@@ -37,7 +37,7 @@ This is an updated table based on my testing on Ubuntu 23.10/24.04:
 
 NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the special keys other then for the screen brightness and volume work. I'll need to use a SIM to test if those buttons work but I doubt they do.
 
-## The good
+## The Good
 
 ### Screen
 
@@ -63,13 +63,13 @@ To my suprise the fingerprint reader works well and I can enroll my fingers! It 
 
 It is a joy to use though it would be nicer if it was a little larger though perhaps that'll happen if they make a 14" or larger model (this is 13.3"). It is certainly larger then my last laptop that I purchased and used for years (still do as a great backup machine).
 
-## The bad
+## The Bad
 
 ### Streaming Websites
 
 While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself). 
 
-## The ugly
+## The Ugly
 
 Since this is a wonderful portable system not having the webcam working might be a deal-breaker for remote folks and such so it's under here.
 
