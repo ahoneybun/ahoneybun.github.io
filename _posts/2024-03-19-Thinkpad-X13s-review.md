@@ -27,23 +27,21 @@ Now you might be able to leave Secure Boot on if you use Ubuntu or another distr
 
 This is an updated table based on my testing on Ubuntu 23.10/24.04:
 
-| Core Feature | Status |
-| ------------ | ------ |
-| Wi-Fi/Bluetooth | Both work great |
-| Touchpad | Works great |
-| Fingerprint Reader | Works well |
-| Speakers | The speakers are really quiet but not sure if it is better on Windows either |
-| Headphone port | Works but has issues |
-| USB-C ports (including PD port) | Works as expected |
-| SIM Slot | Not tested | 
+| Core Feature       | Status |
+| ------------------ | ------ |
+| Wi-Fi/Bluetooth    | Works  |
+| Touchpad           | Works  |
+| Fingerprint Reader | Works  |
+| Speakers           | Works  |
+| Headphone port     | Works-ish  |
+| USB-C ports        | Works  |
+| SIM Slot           | Not tested | 
 
-NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the special keys other then for the screen brightness and volume work. I'll need to use a SIM to test if those buttons work but I doubt they do.
+NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the special keys other then for the screen brightness and volume work. I'll need to use a SIM to test if those buttons work but I doubt they do. From the Debian Wiki page the SIM should work but it may have some hoops to go though but perhaps not on Ubuntu.
 
 ## The Elephant in the Room and it's name is something different then x86_64
 
-One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the ports.ubuntu.com repo which is different then the default us.archive.ubuntu.com that most folks are used to. Now for anyone who knows me I'll have to get nix on my Linux install (if I can't get NixOS like in this case without a lot of tweaks) and this helps with the lack of applications on aarch64. This also helps since a lot of applications in nixpkgs also include aarch64-linux as they call it (since they also have aarch64-darwin for macOS on M CPU's).
-
-![nixpkgs like Signal](/images/{{ page.url }}/nixpkgs.png)
+One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the ports.ubuntu.com repo which is different then the default us.archive.ubuntu.com that most folks are used to. Debian (and there for Ubuntu for the most part) have a fairly large repository of cross-compiled (meaning that it built for more then one architecture which is great and it means applications like Signal, LibreOffice and other software are packaged (Signal being a snap).
 
 ## The Good
 
@@ -57,10 +55,6 @@ This is nice and large even on a 13.3" display thanks to the 16:10 resolution of
 
 I was able to connect to two different networks without issues and Bluetooth worked without issue with my Pixel Buds-A.
 
-### Speakers
-
-The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire updates will help in the future but I'm not sure.
-
 ### Ports
 
 Getting used to only 2x USB-C ports is going to be interesting (I did give Apple a lot of shit when they did it) so I'll have an Anker adapter with an SD card (useful for Pi usage), HDMI and USB-A ports.
@@ -69,13 +63,9 @@ Getting used to only 2x USB-C ports is going to be interesting (I did give Apple
 
 Both ports are 3.2 Gen 2 and support video out though my testing though only the port closest to the hinge supports USB-PD which is expected since it has the PD logo.
 
-#### Headphone/Microphone port
-
-The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
-
 ### Fingerprint Reader
 
-To my suprise the fingerprint reader works well and I can enroll my fingers! It even unlocks the system the system at the login screen too!
+To my surprise the fingerprint reader works well and I can enroll my fingers! It even unlocks the system the system at the login screen too!
 
 ### Touchpad
 
@@ -84,6 +74,14 @@ It is a joy to use though it would be nicer if it was a little larger though per
 ## The Bad
 
 These are the items that don't make or break the system for most folks but are important to note their status.
+
+### Speakers
+
+The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire updates will help in the future but I'm not sure.
+
+#### Headphone/Microphone port
+
+The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
 
 ### Streaming Websites
 
@@ -96,6 +94,14 @@ While YouTube works without issue the same can't be said about Max and Disney+. 
 | Vivaldi |
 | ------- |
 | ![Vivaldi Widevine enabled](/images/{{ page.url }}/vivaldi-widevine.png) |
+
+### Battery
+
+Checking `upower -d` shows the battery should last 5.8 hours while Lenovo quotes 25-28 hours on Windows. I tested the system with no changes including TLP and with the 6.5 kernel from Ubuntu and I saw about that while doing the following things:
+
+- Writing this review using helix, nano, Gedit
+- Researching how to fix the Widevine issue so basic web browsing including some YouTube here and there
+- Downloading updates, installing new applications including snaps and Debian packages
 
 ## The Ugly
 
