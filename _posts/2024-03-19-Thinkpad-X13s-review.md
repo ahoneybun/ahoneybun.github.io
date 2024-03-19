@@ -87,7 +87,7 @@ These are the items that don't make or break the system for most folks but are i
 
 ### Streaming Websites
 
-While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself). 
+While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself).  Since it's a very nice light system for traveling having local content on the system or on a Plex/Jellyfin server might be a workaround.
 
 | Brave | Vivaldi |
 | ----- | ------- |
@@ -97,6 +97,11 @@ While YouTube works without issue the same can't be said about Max and Disney+. 
 
 Here are the items that will most likely help you decide if this is a system for you.
 
-### Camara
+### Webcam
 
+For a really nice and portable system this would be an ideal candidate for remote working but since the camera doesn't work that might be the biggest deal breaker. I imagine support would be added in the future but it depends on how important it is to you.
 This part is short as I'm not able to detect it with any software that I can find like camaeractrls, websites and such.
+
+### Compiling
+
+I did have it freeze on me when I was trying to build a rather large Rust project but limiting compiling options to lower the system load might help with that but I did not do that in my testing.
