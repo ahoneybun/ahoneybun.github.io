@@ -2,7 +2,7 @@
 title: A review of the Thinkpad X13s with Ubuntu Linux
 description: This review is mainly with Ubuntu 23.10 but a little on Ubuntu 24.04
 updated: 2024-03-19
-tags: ubuntu ubuntu-23.10 ubuntu-24.04 
+tags: ubuntu ubuntu-23.10 ubuntu-24.04 aarch64
 
 comments:
   id: 111983313766307308
@@ -103,6 +103,14 @@ Checking `upower -d` shows the battery should last 5.8 hours while Lenovo quotes
 - Researching how to fix the Widevine issue so basic web browsing including some YouTube here and there
 - Downloading updates, installing new applications including snaps and Debian packages
 
+Suspending does not seem to work correctly as the display is still on when the lid is closed but it does turn off if you use the menu to suspend. The battery does still seem to drain while suspended much higher then one would expect when in that state.
+It may be connected to the `mem_sleep` status which we check with this command:
+
+aaronh@drack:~$ cat /sys/power/mem_sleep 
+[s2idle]
+
+Note that the `deep` option is not available on this system.
+
 ## The Ugly
 
 Here are the items that will most likely help you decide if this is a system for you.
@@ -115,3 +123,10 @@ This part is short as I'm not able to detect it with any software that I can fin
 ### Compiling
 
 I did have it freeze on me when I was trying to build a rather large Rust project but limiting compiling options to lower the system load might help with that but I did not do that in my testing.
+
+## Closing marks and should you get one
+
+This system is a great little portable machine with an ARM64 CPU and works great on Ubuntu. Once Ubuntu 24.04 is released with the 6.8 kernel I believe things will get even better as it has a lot of changes, here is a small list of a few articles with information:
+
+- https://www.phoronix.com/news/Linux-6.8-ARM-Changes
+- https://www.phoronix.com/news/Qualcomm-Mainline-Linux-2024
