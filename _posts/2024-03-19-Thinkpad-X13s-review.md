@@ -39,6 +39,12 @@ This is an updated table based on my testing on Ubuntu 23.10/24.04:
 
 NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the special keys other then for the screen brightness and volume work. I'll need to use a SIM to test if those buttons work but I doubt they do.
 
+## The Elephant in the Room and it's name is something different then x86_64
+
+One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the ports.ubuntu.com repo which is different then the default us.archive.ubuntu.com that most folks are used to. Now for anyone who knows me I'll have to get nix on my Linux install (if I can't get NixOS like in this case without a lot of tweaks) and this helps with the lack of applications on aarch64. This also helps since a lot of applications in nixpkgs also include aarch64-linux as they call it (since they also have aarch64-darwin for macOS on M CPU's).
+
+![nixpkgs like Signal](images/{{ page.url }}/nixpkgs.png)
+
 ## The Good
 
 These are the items that are amazing and work really well.
