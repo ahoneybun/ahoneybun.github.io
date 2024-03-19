@@ -14,7 +14,7 @@ I purchased this system from [Amazon's Renewed Store](https://www.amazon.com/dp/
 
 ### Ubuntu support (general Linux support)
 
-![neofetch](images/{{ page.url }}/X13s-neofetch.png)
+![neofetch](/images/{{ page.url }}/X13s-neofetch.png)
 
 Ubuntu has a custom image for this system which is nice until it can be merged into a general ARM64 image but with this platform it seems there is special settings that you need per device. This image is based on [Ubuntu 23.10](https://cdimage.ubuntu.com/ubuntu/releases/23.10.1/release/ubuntu-23.10.1-desktop-arm64+x13s.iso) but there are Noble Numbat (24.04) daily images as well [here](https://cdimage.ubuntu.com/daily-live/current/noble-desktop-arm64+x13s.iso) which is nice to see.
 
@@ -43,7 +43,7 @@ NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the
 
 One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the ports.ubuntu.com repo which is different then the default us.archive.ubuntu.com that most folks are used to. Now for anyone who knows me I'll have to get nix on my Linux install (if I can't get NixOS like in this case without a lot of tweaks) and this helps with the lack of applications on aarch64. This also helps since a lot of applications in nixpkgs also include aarch64-linux as they call it (since they also have aarch64-darwin for macOS on M CPU's).
 
-![nixpkgs like Signal](images/{{ page.url }}/nixpkgs.png)
+![nixpkgs like Signal](/images/{{ page.url }}/nixpkgs.png)
 
 ## The Good
 
@@ -87,11 +87,15 @@ These are the items that don't make or break the system for most folks but are i
 
 ### Streaming Websites
 
-While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself).  Since it's a very nice light system for traveling having local content on the system or on a Plex/Jellyfin server might be a workaround.
+While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself).  Since it's a very nice light system for traveling having local content on the system or on a Plex/Jellyfin server might be a workaround. It seems that this is also an issue with Asahi on M* series CPU's from Apple as well so not a new issue.
 
-| Brave | Vivaldi |
-| ----- | ------- |
-| ![Brave Widevine enabled](images/{{ page.url }}/brave-widevine.png) | ![Vivaldi Widevine enabled](images/{{ page.url }}/vivaldi-widevine.png) |
+| Brave |
+| ----- |
+| ![Brave Widevine enabled](/images/{{ page.url }}/brave-widevine.png) | 
+
+| Vivaldi |
+| ------- |
+| ![Vivaldi Widevine enabled](/images/{{ page.url }}/vivaldi-widevine.png) |
 
 ## The Ugly
 
