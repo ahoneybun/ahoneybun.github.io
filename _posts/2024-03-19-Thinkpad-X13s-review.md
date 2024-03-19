@@ -63,15 +63,15 @@ The speakers which are really low for some reason and do not get better even at 
 
 ### Ports
 
+Getting used to only 2x USB-C ports is going to be interesting (I did give Apple a lot of shit when they did it) so I'll have an Anker adapter with an SD card (useful for Pi usage), HDMI and USB-A ports.
+
 #### USB-C ports
 
-Spec: 2 x USB-C 3.2 Gen 2
+Both ports are 3.2 Gen 2 and support video out though my testing though only the port closest to the hinge supports USB-PD which is expected since it has the PD logo.
 
-Both ports support video out though my testing though only the port closest to the hinge supports USB-PD which is expected since it has the PD logo.
+#### Headphone/Microphone port
 
-#### Headphone port
-
-The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this.
+The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
 
 ### Fingerprint Reader
 
