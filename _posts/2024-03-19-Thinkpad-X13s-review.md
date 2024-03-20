@@ -45,7 +45,11 @@ NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the
 
 ## The Elephant in the Room and it's name is something different then x86_64
 
-One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the ports.ubuntu.com repo which is different then the default us.archive.ubuntu.com that most folks are used to. Debian (and there for Ubuntu for the most part) have a fairly large repository of cross-compiled (meaning that it built for more then one architecture which is great and it means applications like Signal, LibreOffice and other software are packaged (Signal being a snap).
+One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the ports.ubuntu.com repo which is different then the default us.archive.ubuntu.com that most folks are used to. 
+
+Debian (and there for Ubuntu for the most part) have a fairly large repository of cross-compiled (meaning that it built for more then one architecture which is great and it means applications like Signal, LibreOffice and other software are packaged (Signal being a snap). 
+
+Now applications like [Slack](https://flathub.org/apps/com.slack.Slack) and [Discord](https://flathub.org/apps/com.discordapp.Discord) that I use quite a bit don't have aarch64 support in either their Debian packaging, flatpak or snap since upstream does not create them or support them from what I can tell. You have odd expections like with [ProtonVPN](https://flathub.org/apps/com.protonvpn.www) which has both x86_64 and aarch64 support but not [Proton Mail Bridge](https://flathub.org/apps/ch.protonmail.protonmail-bridge) which is odd and I've pointed it out on their [social](https://twitter.com/ProtonSupport/status/1769714475433590792).
 
 ## The Good
 
@@ -79,11 +83,9 @@ I was able to connect to two different networks without issues. While Bluetooth 
 
 ![Bluetooth sound](/images/{{ page.url }}/Bluetooth-sound.png)
 
-### Ports
+### USB-C ports
 
 Getting used to only 2x USB-C ports is going to be interesting (I did give Apple a lot of shit when they did it) so I'll have an Anker adapter with an SD card (useful for Pi usage), HDMI and USB-A ports.
-
-#### USB-C ports
 
 Both ports are 3.2 Gen 2 and support video out though my testing though only the port closest to the hinge supports USB-PD which is expected since it has the PD logo.
 
@@ -119,15 +121,7 @@ YouTube works and here are some stats for the nerds:
 
 ![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
 
-Now streaming sites that use Widevine DRM like Max and Disney+ do not work at all when you try to load a video. I tested Firefox (snap default install) and Vivaldi (they have an ARM64 Debian release). Now I was able to get Max and Disney+ to work (but not Netflix currently) with Brave by using the [Widevine Installer](https://github.com/AsahiLinux/widevine-installer) from the Asahi project and these [steps](https://support.brave.com/hc/en-us/articles/23881756488717-How-do-I-enable-Widevine-DRM-on-Linux) from Brave. Now these can break at any time with how Widevine is but it does work currently.
-
-| Brave |
-| ----- |
-| ![Brave Widevine enabled](/images/{{ page.url }}/brave-widevine.png) | 
-
-| Vivaldi |
-| ------- |
-| ![Vivaldi Widevine enabled](/images/{{ page.url }}/vivaldi-widevine.png) |
+Now streaming sites that use Widevine DRM like Max and Disney+ do not work at all when you try to load a video. I tested Firefox (snap default install) and Vivaldi (they have an ARM64 Debian release). Now I was able to get Max and Disney+ to work (but not Netflix currently) with Brave by using the [Widevine Installer](https://github.com/AsahiLinux/widevine-installer) from the Asahi project and these [steps](https://support.brave.com/hc/en-us/articles/23881756488717-How-do-I-enable-Widevine-DRM-on-Linux) from Brave. Now this can break at any time with how Widevine is but it does work currently at this time.
 
 ### Battery
 
