@@ -51,6 +51,10 @@ These are the items that are amazing and work really well.
 
 I did enjoy seeing a Linux option in the BIOS though I think it should just be on by default and ideally not needed. The settings for swapping the Fn row from needing to press Fn+F5 to refresh a web page to just pressing F5 like I expect. I also liked the option to swap the Fn and Ctrl since I'm used to the Ctrl being on the bottom left rather then the Fn. 
 
+### GNOME Shell
+
+![GNOME Shell animations](/videos/{{ page.url }}/GNOME-Shell-animations.webm) | 
+
 ### Screen
 
 This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). Video encoding seems to work with YouTube. 
