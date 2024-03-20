@@ -51,7 +51,13 @@ These are the items that are amazing and work really well.
 
 I did enjoy seeing a Linux option in the BIOS though I think it should just be on by default and ideally not needed. The settings for swapping the Fn row from needing to press Fn+F5 to refresh a web page to just pressing F5 like I expect. I also liked the option to swap the Fn and Ctrl since I'm used to the Ctrl being on the bottom left rather then the Fn. 
 
+### Upgradable
+
+Now the RAM is soldered (there are 8GB/16GB/32GB options, I have the 16GB model) **BUT** the drive is actually a M.2 2242 (not 2230 like the Steam Deck and Surface line and not 2280 like most desktops) based on the [overview sheet from Lenovo](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X13s_Gen_1/ThinkPad_X13s_Gen_1_Spec.pdf). Plus based on the [manual](https://download.lenovo.com/pccbbs/pubs/tp_13s_gen1/ug/html_en/index.html) it looks like it is just a few screws to remove the bottom panel and the drive is held in with a single M.2 screw like normal M.2 drives! 
+
 ### GNOME Shell
+
+The animations in GNOME Shell are really smooth and great with the touchpad! See the video below for yourself!
 
 ![GNOME Shell animations](/videos/{{ page.url }}/GNOME-Shell-animations.webm) | 
 
