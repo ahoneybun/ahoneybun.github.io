@@ -35,6 +35,7 @@ This is an updated table based on my testing on Ubuntu 23.10/24.04:
 | ------------------ | ------ |
 | Wi-Fi/Bluetooth    | Works  |
 | Touchpad           | Works  |
+| Touch Screen       | Works  | * not the default configuration
 | Fingerprint Reader | Works  |
 | Speakers           | Works  |
 | Headphone port     | Works-ish  |
@@ -73,7 +74,7 @@ The animations in GNOME Shell are really smooth and great with the touchpad! See
 
 ### Screen
 
-This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). 
+This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). If you get the touch screen model like is included with this one it works as expected and I can move between workspaces, move windows and highlight text. I did not test onscreen keyboards but I suspect they will just fine, this system does not fold completely like some Chromebooks or partly like some Thinkpad Yoga models so you won't be able to use it like that.
 
 ### Wi-Fi and Bluetooth
 
