@@ -29,7 +29,7 @@ twitter: "@fishfulpenguin" # user including @
 # for multi-author blogs or guest posts.
 comments:
   # Your Mastodon API host; this should be where you have an account
-  host: creatorstudio.space
+  host: hachyderm.io
   # Optional; vanity domain if configured; host will be used if omitted; UNIMPLEMENTED
   #domain: blaede.family
   # Used to determine who the original/verified poster is; role may be expanded
