@@ -71,7 +71,11 @@ This is nice and large even on a 13.3" display thanks to the 16:10 resolution of
 
 ### Wi-Fi and Bluetooth
 
-I was able to connect to two different networks without issues and Bluetooth worked without issue with my Pixel Buds-A.
+I was able to connect to two different networks without issues. While Bluetooth was testing with my Pixel Buds-A I did notice some odd "audio glitching" but it would happen randomly and the audio would keep playing during these moments but would sometimes stop for a second or two then continue playing.
+
+![Bluetooth devices](/images/{{ page.url }}/Bluetooth-devices.png)
+
+![Bluetooth sound](/images/{{ page.url }}/Bluetooth-sound.png)
 
 ### Ports
 
