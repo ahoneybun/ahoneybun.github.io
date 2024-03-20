@@ -104,7 +104,7 @@ It is a joy to use though it would be nicer if it was a little larger though per
 
 ### Cooling system
 
-This is a fan-less system so heat is a good question to ask, while building the [System76 Keyboard Configurator](https://github.com/pop-os/keyboard-configurator) the highest temperature that I saw was about 67C which I think is really good. The system's CPU is near the USB-C ports so the top left if you are looking at the screen and you can feel it getting a little warm there. 
+This is a fan-less system so how well the system can keep cool is a good question to ask, while building the [System76 Keyboard Configurator](https://github.com/pop-os/keyboard-configurator) the highest temperature that I saw was about 67C which I think is really good. The system's CPU is near the USB-C ports so the top left if you are looking at the screen and you can feel it getting a little warm there. 
 
 ![Building Rust software](/images/{{ page.url}}/Cooling_compiling-rust-project.png)
 
