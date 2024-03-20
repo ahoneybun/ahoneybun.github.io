@@ -103,9 +103,13 @@ The speakers which are really low for some reason and do not get better even at 
 
 The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
 
-### Streaming Websites
+### Video encoding and DRM
 
-While YouTube works without issue the same can't be said about Max and Disney+. They do not work with Firefox (snap default install) or Vivaldi (they have an ARM64 image or I would have tested Chrome itself).  Since it's a very nice light system for traveling having local content on the system or on a Plex/Jellyfin server might be a workaround. It seems that this is also an issue with Asahi on M* series CPU's from Apple as well so not a new issue.
+YouTube works and here are some stats for the nerds:
+
+![YouTube Nerd Stats](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats.png)
+
+Now streaming sites that use Widevine DRM like Max and Disney+ do not work at all when you try to load a video. I tested Firefox (snap default install) and Vivaldi (they have an ARM64 Debian release). Since it's a very nice light system for traveling having local content on the system or on a Plex/Jellyfin server might be a workaround. It seems that this is also an issue with Asahi on M* series CPU's from Apple as well so not a new issue.
 
 | Brave |
 | ----- |
