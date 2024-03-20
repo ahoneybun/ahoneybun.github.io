@@ -119,7 +119,7 @@ YouTube works and here are some stats for the nerds:
 
 ![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
 
-Now streaming sites that use Widevine DRM like Max and Disney+ do not work at all when you try to load a video. I tested Firefox (snap default install) and Vivaldi (they have an ARM64 Debian release). Since it's a very nice light system for traveling having local content on the system or on a Plex/Jellyfin server might be a workaround. It seems that this is also an issue with Asahi on M* series CPU's from Apple as well so not a new issue.
+Now streaming sites that use Widevine DRM like Max and Disney+ do not work at all when you try to load a video. I tested Firefox (snap default install) and Vivaldi (they have an ARM64 Debian release). Now I was able to get Max and Disney+ to work (but not Netflix currently) with Brave by using the [Widevine Installer](https://github.com/AsahiLinux/widevine-installer) from the Asahi project and these [steps](https://support.brave.com/hc/en-us/articles/23881756488717-How-do-I-enable-Widevine-DRM-on-Linux) from Brave. Now these can break at any time with how Widevine is but it does work currently.
 
 | Brave |
 | ----- |
