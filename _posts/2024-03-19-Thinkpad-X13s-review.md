@@ -47,6 +47,10 @@ One of the good things about x86_64 is since every application is packaged for i
 
 These are the items that are amazing and work really well.
 
+### BIOS/UEFI
+
+I did enjoy seeing a Linux option in the BIOS though I think it should just be on by default and ideally not needed. The settings for swapping the Fn row from needing to press Fn+F5 to refresh a web page to just pressing F5 like I expect. I also liked the option to swap the Fn and Ctrl since I'm used to the Ctrl being on the bottom left rather then the Fn. 
+
 ### Screen
 
 This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). Video encoding seems to work with YouTube. 
@@ -67,9 +71,13 @@ Both ports are 3.2 Gen 2 and support video out though my testing though only the
 
 To my surprise the fingerprint reader works well and I can enroll my fingers! It even unlocks the system the system at the login screen too!
 
+### Buttons
+
+I've never had a Thinkpad before but I've heard many friends praise the keyboard, the nib and the buttons like the ones above the touchpad. I'm happy to say that they were indeed correct and it is really nice to have physical buttons in addition to the buttons under the touchpad such as the middle mouse button.
+
 ### Touchpad
 
-It is a joy to use though it would be nicer if it was a little larger though perhaps that'll happen if they make a 14" or larger model (this is 13.3"). It is certainly larger then my last laptop that I purchased and used for years (still do as a great backup machine).
+It is a joy to use though it would be nicer if it was a little larger though perhaps that'll happen if they make a 14" or larger model (this is 13.3"). It is certainly larger then my last laptop that I purchased and used for years (still do as a great backup machine). I'm able to use the gestures for GNOME (for moving workspaces and going to the application view) and Firefox (for going forward and back on web pages). 
 
 ## The Bad
 
@@ -77,7 +85,7 @@ These are the items that don't make or break the system for most folks but are i
 
 ### Speakers
 
-The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire updates will help in the future but I'm not sure.
+The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire/Kernel updates will help in the future but I'm not sure.
 
 #### Headphone/Microphone port
 
@@ -99,7 +107,7 @@ While YouTube works without issue the same can't be said about Max and Disney+. 
 
 Checking `upower -d` shows the battery should last 5.8 hours while Lenovo quotes 25-28 hours on Windows. I tested the system with no changes including TLP and with the 6.5 kernel from Ubuntu and I saw about that while doing the following things:
 
-- Writing this review using helix, nano, Gedit
+- Writing this review using helix, nano, Text Editor
 - Researching how to fix the Widevine issue so basic web browsing including some YouTube here and there
 - Downloading updates, installing new applications including snaps and Debian packages
 
@@ -117,16 +125,18 @@ Here are the items that will most likely help you decide if this is a system for
 
 ### Webcam
 
-For a really nice and portable system this would be an ideal candidate for remote working but since the camera doesn't work that might be the biggest deal breaker. I imagine support would be added in the future but it depends on how important it is to you.
+For a really nice and portable system this would be an ideal candidate for remote working but since the camera does not work that might be the biggest deal breaker. I imagine support would be added in the future but it depends on how important it is to you.
 This part is short as I'm not able to detect it with any software that I can find like camaeractrls, websites and such.
 
 ### Compiling
 
 I did have it freeze on me when I was trying to build a rather large Rust project but limiting compiling options to lower the system load might help with that but I did not do that in my testing.
 
-## Closing marks and should you get one
+## Closing marks
 
-This system is a great little portable machine with an ARM64 CPU and works great on Ubuntu. Once Ubuntu 24.04 is released with the 6.8 kernel I believe things will get even better as it has a lot of changes, here is a small list of a few articles with information:
+Once Ubuntu 24.04 is released with the 6.8 kernel I believe things will get even better as it has a lot of changes, here is a small list of a few articles with information:
 
 - https://www.phoronix.com/news/Linux-6.8-ARM-Changes
 - https://www.phoronix.com/news/Qualcomm-Mainline-Linux-2024
+
+This system is a great little portable machine with an ARM64 CPU and works great on Ubuntu. If you are looking for a system that is fanless for working on documents, web browsing, watching some YouTube videos and a little development work this is a great option! With that said if you travel and use streaming services that might be a deal breaker for you but I hope that it improves in the near future. 
