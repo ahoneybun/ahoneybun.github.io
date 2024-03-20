@@ -102,6 +102,12 @@ I've never had a Thinkpad before but I've heard many friends praise the keyboard
 
 It is a joy to use though it would be nicer if it was a little larger though perhaps that'll happen if they make a 14" or larger model (this is 13.3"). It is certainly larger then my last laptop that I purchased and used for years (still do as a great backup machine). I'm able to use the gestures for GNOME (for moving workspaces and going to the application view) and Firefox (for going forward and back on web pages). 
 
+### Cooling system
+
+This is a fan-less system so heat is a good question to ask, while building the [System76 Keyboard Configurator](https://github.com/pop-os/keyboard-configurator) the highest temperature that I saw was about 67C which I think is really good. The system's CPU is near the USB-C ports so the top left if you are looking at the screen and you can feel it getting a little warm there. 
+
+![Building Rust software](/images/{{ page.url}}/Cooling_compiling-rust-project.png)
+
 ## The Bad
 
 These are the items that don't make or break the system for most folks but are important to note their status.
