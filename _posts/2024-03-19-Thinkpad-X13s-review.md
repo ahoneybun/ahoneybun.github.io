@@ -16,6 +16,8 @@ I purchased this system from [Amazon's Renewed Store](https://www.amazon.com/dp/
 
 ![neofetch](/images/{{ page.url }}/X13s-neofetch.png)
 
+![About System](/images/{{ page.url }}/About-System.png)
+
 Ubuntu has a custom image for this system which is nice until it can be merged into a general ARM64 image but with this platform it seems there is special settings that you need per device. This image is based on [Ubuntu 23.10](https://cdimage.ubuntu.com/ubuntu/releases/23.10.1/release/ubuntu-23.10.1-desktop-arm64+x13s.iso) but there are Noble Numbat (24.04) daily images as well [here](https://cdimage.ubuntu.com/daily-live/current/noble-desktop-arm64+x13s.iso) which is nice to see.
 
 My original install was done using the 23.10 image but I have upgraded to 24.04 (which is still in testing until the end of April) but both have the 6.5.0 kernel series so other then possible newer versions of Mesa, PipeWire/PulseAudio everything should be pretty much the same for testing. 
