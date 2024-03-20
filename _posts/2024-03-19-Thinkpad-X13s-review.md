@@ -111,7 +111,7 @@ YouTube works and here are some stats for the nerds:
 
 ![Music Video at 1080@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats.png)
 
-![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png:)
+![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
 
 Now streaming sites that use Widevine DRM like Max and Disney+ do not work at all when you try to load a video. I tested Firefox (snap default install) and Vivaldi (they have an ARM64 Debian release). Since it's a very nice light system for traveling having local content on the system or on a Plex/Jellyfin server might be a workaround. It seems that this is also an issue with Asahi on M* series CPU's from Apple as well so not a new issue.
 
