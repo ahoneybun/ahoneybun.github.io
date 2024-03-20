@@ -133,7 +133,7 @@ Checking `upower -d` shows the battery should last 5.8 hours while Lenovo quotes
 - Downloading updates, installing new applications including snaps and Debian packages
 
 Suspending does not seem to work correctly as the display is still on when the lid is closed but it does turn off if you use the menu to suspend. The battery does still seem to drain while suspended much higher then one would expect when in that state.
-It may be connected to the `mem_sleep` status which we check with this command:
+This system does work with S0ix and we can confirm with this output from this command:
 
 ```bash
 aaronh@drack:~$ cat /sys/power/mem_sleep 
