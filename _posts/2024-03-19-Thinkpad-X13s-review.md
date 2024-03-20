@@ -59,11 +59,13 @@ Now the RAM is soldered (there are 8GB/16GB/32GB options, I have the 16GB model)
 
 The animations in GNOME Shell are really smooth and great with the touchpad! See the video below for yourself!
 
-![GNOME Shell animations](/videos/{{ page.url }}/GNOME-Shell-animations.webm) | 
+<video width="640" height="360" controls>
+  <source src="/videos/{{ page.url}}/GNOME-Shell-animations.webm" type="video/webm">
+</video>
 
 ### Screen
 
-This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). Video encoding seems to work with YouTube. 
+This is nice and large even on a 13.3" display thanks to the 16:10 resolution of 1920x1200 (instead of the average 16:9 1920x1080 that I'm used to). 
 
 ### Wi-Fi and Bluetooth
 
