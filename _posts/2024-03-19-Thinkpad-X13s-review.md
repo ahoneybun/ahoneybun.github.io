@@ -88,7 +88,7 @@ I was able to connect to two different networks without issues. While Bluetooth 
 
 Getting used to only 2x USB-C ports is going to be interesting (I did give Apple a lot of shit when they did it) so I'll have an Anker adapter with an SD card (useful for Pi usage), HDMI and USB-A ports.
 
-Both ports are 3.2 Gen 2 and support video out though my testing though only the port closest to the hinge supports USB-PD which is expected since it has the PD logo.
+Both ports are 3.2 Gen 2 and support video out and power in though my testing, I did note that when you first connect a display GNOME Shell crashes and throws you to the login screen again. It doesn't seem to happen again until you reboot the system then connect a display again.
 
 ### Fingerprint Reader
 
