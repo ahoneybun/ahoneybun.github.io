@@ -14,9 +14,9 @@ I purchased this system from [Amazon's Renewed Store](https://www.amazon.com/dp/
 
 ### Ubuntu support (general Linux support)
 
-![neofetch](/images/{{ page.url }}/X13s-neofetch.png)
+[![neofetch](/images/{{ page.url }}/X13s-neofetch.png)](/images/{{ page.url }}/X13s-neofetch.png)
 
-![About System](/images/{{ page.url }}/About-System.png)
+[![About System](/images/{{ page.url }}/About-System.png)](/images/{{ page.url }}/About-System.png)
 
 Ubuntu has a custom image for this system which is nice until it can be merged into a general ARM64 image but with this platform it seems there is special settings that you need per device. This image is based on [Ubuntu 23.10](https://cdimage.ubuntu.com/ubuntu/releases/23.10.1/release/ubuntu-23.10.1-desktop-arm64+x13s.iso) but there are Noble Numbat (24.04) daily images as well [here](https://cdimage.ubuntu.com/daily-live/current/noble-desktop-arm64+x13s.iso) which is nice to see.
 
@@ -80,9 +80,9 @@ This is nice and large even on a 13.3" display thanks to the 16:10 resolution of
 
 I was able to connect to two different networks without issues. While Bluetooth was testing with my Pixel Buds-A I did notice some odd "audio glitching" but it would happen randomly and the audio would keep playing during these moments but would sometimes stop for a second or two then continue playing.
 
-![Bluetooth devices](/images/{{ page.url }}/Bluetooth-devices.png)
+[![Bluetooth devices](/images/{{ page.url }}/Bluetooth-devices.png)](/images/{{ page.url }}/Bluetooth-devices.png)
 
-![Bluetooth sound](/images/{{ page.url }}/Bluetooth-sound.png)
+[![Bluetooth sound](/images/{{ page.url }}/Bluetooth-sound.png)](/images/{{ page.url }}/Bluetooth-sound.png)
 
 ### USB-C ports
 
@@ -106,15 +106,15 @@ It is a joy to use though it would be nicer if it was a little larger though per
 
 This is a fan-less system so how well the system can keep cool is a good question to ask, while building the [System76 Keyboard Configurator](https://github.com/pop-os/keyboard-configurator) the highest temperature that I saw was about 67C which I think is really good. The system's CPU is near the USB-C ports so the top left if you are looking at the screen and you can feel it getting a little warm there. 
 
-![Building Rust software](/images/{{ page.url}}/Cooling_compiling-rust-project.png)
+[![Building Rust software](/images/{{ page.url}}/Cooling_compiling-rust-project.png)](/images/{{ page.url}}/Cooling_compiling-rust-project.png)
 
 ### Video encoding
 
 YouTube works and here are some stats for the nerds:
 
-![Music Video at 1080@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats.png)
+[![Music Video at 1080@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats.png)](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats.png)
 
-![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
+[![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
 
 As you can see it reports that videos are able to encode up to 4K@60 without issue, the videos are smooth and audio matches without issue.
 
@@ -169,7 +169,7 @@ I did have it freeze on me when I was trying to build a rather large Rust projec
 
 Once Ubuntu 24.04 is released with the 6.8 kernel I believe things will get even better as it has a lot of changes, here is a small list of a few articles with information:
 
-- https://www.phoronix.com/news/Linux-6.8-ARM-Changes
-- https://www.phoronix.com/news/Qualcomm-Mainline-Linux-2024
+- [Phoronix - Linux-6.8-ARM-Changes](https://www.phoronix.com/news/Linux-6.8-ARM-Changes)
+- [Phoronix - Qualcomm-Mainline-Linux-2024](https://www.phoronix.com/news/Qualcomm-Mainline-Linux-2024)
 
 This system is a great little portable machine with an ARM64 CPU and works great on Ubuntu. If you are looking for a system that is fanless for working on documents, web browsing, watching some YouTube videos and a little development work this is a great option! With that said if you travel and use streaming services that might be a deal breaker for you but I hope that it improves in the near future. 
