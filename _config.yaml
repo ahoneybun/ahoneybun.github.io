@@ -29,7 +29,7 @@ twitter: "@fishfulpenguin" # user including @
 # for multi-author blogs or guest posts.
 comments:
   # Your Mastodon API host; this should be where you have an account
-  host: creatorstudio.space
+  host: hachyderm.io
   # Optional; vanity domain if configured; host will be used if omitted; UNIMPLEMENTED
   #domain: blaede.family
   # Used to determine who the original/verified poster is; role may be expanded
@@ -38,23 +38,11 @@ comments:
   # Additional verified usernames in username@example.com format. If they are on
   # the host listed above, OMIT the @example.com; UNIMPLEMENTED
   verified:
-    - ahoneybunn@creatorstudio.space
-    - alatiera@mastodon.social
-    - alice@crab.garden
-    - brainblasted@crab.garden
     - btkostner@mastodon.social
-    - jimmac@mastodon.social
-    - julian@fietkau.social
-    - katie
     - lizkecso@mastodon.social
-    - Lobau@indieweb.social
-    - lucy
-    - micahilbery@mastodon.online
-    - nora
-    - razze@osna.social
     - ryanleesipes@mastodon.social
-    - tammy
-    - tbernard@mastodon.social
+    - DaisyLee@mastodon.social
+    - codemonkeymike@fosstodon.org
 
 # Settings
 permalink: /blog/:title/
