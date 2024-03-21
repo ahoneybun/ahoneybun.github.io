@@ -5,7 +5,7 @@ updated: 2024-03-21
 tags: ubuntu ubuntu-23.10 ubuntu-24.04 aarch64
 
 comments:
-  id: 111983313766307308
+  id: 112135931486839534
 ---
 
 ## Preface
