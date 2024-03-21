@@ -108,6 +108,14 @@ This is a fan-less system so how well the system can keep cool is a good questio
 
 ![Building Rust software](/images/{{ page.url}}/Cooling_compiling-rust-project.png)
 
+### Video encoding
+
+YouTube works and here are some stats for the nerds:
+
+![Music Video at 1080@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats.png)
+
+![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
+
 ## The Bad
 
 These are the items that don't make or break the system for most folks but are important to note their status.
@@ -120,13 +128,7 @@ The speakers which are really low for some reason and do not get better even at 
 
 The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
 
-### Video encoding and DRM
-
-YouTube works and here are some stats for the nerds:
-
-![Music Video at 1080@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats.png)
-
-![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
+### Widevine/DRM
 
 Now streaming sites that use Widevine DRM like Max and Disney+ do not work at all when you try to load a video. I tested Firefox (snap default install) and Vivaldi (they have an ARM64 Debian release). Now I was able to get Max and Disney+ to work (but not Netflix currently) with Brave by using the [Widevine Installer](https://github.com/AsahiLinux/widevine-installer) from the Asahi project and these [steps](https://support.brave.com/hc/en-us/articles/23881756488717-How-do-I-enable-Widevine-DRM-on-Linux) from Brave. Now this can break at any time with how Widevine is but it does work currently at this time.
 
