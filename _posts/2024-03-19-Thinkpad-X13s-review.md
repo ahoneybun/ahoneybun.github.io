@@ -116,6 +116,8 @@ YouTube works and here are some stats for the nerds:
 
 ![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
 
+As you can see it reports that videos are able to encode up to 4K@60 without issue, the videos are smooth and audio matches without issue.
+
 ## The Bad
 
 These are the items that don't make or break the system for most folks but are important to note their status.
