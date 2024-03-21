@@ -46,7 +46,7 @@ NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the
 
 ## The Elephant in the Room and it's name is something different then x86_64
 
-One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the ports.ubuntu.com repo which is different then the default us.archive.ubuntu.com that most folks are used to. 
+One of the good things about x86_64 is since every application is packaged for it by default and aarch64 is more of an after thought other then packages in the [ports.ubuntu.com](http://ports.ubuntu.com) repo which is different then the default [us.archive.ubuntu.com](http://us.archive.ubuntu.com) that most folks are used to. 
 
 Debian (and there for Ubuntu for the most part) have a fairly large repository of cross-compiled (meaning that it built for more then one architecture which is great and it means applications like Signal, LibreOffice and other software are packaged (Signal being a snap). 
 
