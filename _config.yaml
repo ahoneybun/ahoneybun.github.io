@@ -34,7 +34,7 @@ comments:
   #domain: blaede.family
   # Used to determine who the original/verified poster is; role may be expanded
   # in the future (e.g. for moderation)
-  username: ahoneybunn
+  username: ahoneybun
   # Additional verified usernames in username@example.com format. If they are on
   # the host listed above, OMIT the @example.com; UNIMPLEMENTED
   verified:
