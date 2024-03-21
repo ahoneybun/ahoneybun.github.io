@@ -126,7 +126,7 @@ These are the items that don't make or break the system for most folks but are i
 
 The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire/Kernel updates will help in the future but I'm not sure.
 
-#### Headphone/Microphone port
+### Headphone/Microphone port
 
 The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
 
