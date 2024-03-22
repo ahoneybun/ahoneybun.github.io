@@ -108,7 +108,7 @@ This is a fan-less system so how well the system can keep cool is a good questio
 
 [![Building Rust software](/images/{{ page.url}}/Cooling_compiling-rust-project.png)](/images/{{ page.url}}/Cooling_compiling-rust-project.png)
 
-### Video encoding
+### Video decoding
 
 YouTube works and here are some stats for the nerds:
 
@@ -116,7 +116,7 @@ YouTube works and here are some stats for the nerds:
 
 [![Test Video at 4K@60](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)](/images/{{ page.url}}/YouTube-Encoding-Nerd-Stats-2.png)
 
-As you can see it reports that videos are able to encode up to 4K@60 without issue, the videos are smooth and audio matches without issue.
+As you can see it reports that videos are able to decode up to 4K@60 without issue, the videos are smooth and audio matches without issue.
 
 ## The Bad
 
