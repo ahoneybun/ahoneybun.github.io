@@ -38,11 +38,14 @@ comments:
   # Additional verified usernames in username@example.com format. If they are on
   # the host listed above, OMIT the @example.com; UNIMPLEMENTED
   verified:
+  # Mastodon.social (main instance)
     - btkostner@mastodon.social
     - lizkecso@mastodon.social
     - ryanleesipes@mastodon.social
     - DaisyLee@mastodon.social
+  # Fosstodon.org (big FOSS instance)
     - codemonkeymike@fosstodon.org
+    - kgilmer@fosstodon.org 
 
 # Settings
 permalink: /blog/:title/
