@@ -5,6 +5,15 @@ updated: 2024-04-10
 tags: mobile-linux postmarketos
 ---
 
+## New devices!
+
+This year I have the following devices instead of the PinePhone to review Phosh:
+
+- OnePlus 6T (Phone)
+- Lenovo IdeaPad Duet (Tablet)
+
+These are both running postmarketOS instead of NixOS like last year had.
+
 ## UI/UX Issues
 
 Let's pick up on the issues that we talked about last year and where they are, below we'll most often see issues:
@@ -13,6 +22,8 @@ Let's pick up on the issues that we talked about last year and where they are, b
 - New windows for certain sections of applications like Settings 
 
 Yep those are still issues even with applications that use libadwaita.
+
+
 
 ## Application Issues
 
