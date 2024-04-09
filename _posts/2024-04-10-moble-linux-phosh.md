@@ -142,3 +142,7 @@ This starts out looking great and continues until you hit the FilePicker diaglog
 Tuba
 
 This works well and can manage more then one account as well! Works great on the phone and tablet though logging in can be difficult with getting the auth code from the browser.
+
+![OnePlus 6T with Tuba feed](/images/{{ page.url }}/OnePlus-6T_Tuba.png)
+
+![OnePlus 6T with Tuba profile](/images/{{ page.url }}/OnePlus-6T_Tuba2.png)
