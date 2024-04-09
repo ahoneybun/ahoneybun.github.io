@@ -44,6 +44,7 @@ We'll use the same list from 2023 since I think it's a good list of things that 
 - Calculator
 - Calendar
 - Music
+- Video
 - Podcasts
 - Text Editor
 - Books
@@ -101,6 +102,14 @@ Now the same issues as last time are still there so I'll re-use those images:
 | Collection change | Different Window |
 | ----------------- | ---------------- |
 | ![Lollypop Collection Change](/images/{{ page.url }}/lollypop_collection_change.png) | ![Lollypop Collection Add](/images/{{ page.url }}/lollypop_different-window.png) |
+
+## Video
+
+### Light Video
+
+Now I have this sideways as I have issues rotating the tablet sometimes.
+
+![Lenovo IdeaPad Duet playing WING IT!](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Video-Player)
 
 ## Podcasts
 
