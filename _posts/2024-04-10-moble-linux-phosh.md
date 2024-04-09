@@ -35,13 +35,14 @@ Yep those are still issues even with applications that use libadwaita.
 
 ## Application Issues
 
-We'll use the same list from 2023 since I think it's a good list of things that most folks would expect but we'll add more basic things that I left out last time. Like the Phone and SMS applications lol:
+We'll use the same list from 2023 since I think it's a good list of things that most folks would expect but we'll add more basic things that I left out last time. Now a lot of screenshots will be the same since the same UI/UX issues exist but there will be some new ones that include what a tablet looks like:
 
 - Phone*
 - SMS*
 - Matrix (Fractal)
 - Browser
 - Calculator
+- Calendar
 - Music
 - Podcasts
 - Text Editor
@@ -51,15 +52,17 @@ We'll use the same list from 2023 since I think it's a good list of things that 
 
 * Now I don't have a working SIM card in the phone so I can't test them but there are apps and they worked fine in the PinePhone.
 
-### Matrix
+## Matrix
 
-Fractal works well and looks good!
+### Fractal
+
+This works well and looks good!
 
 ![OnePlus 6T with Fractal signed in](/images/{{ page.url }}/OnePlus-6T_Fractal.png)
 
-### Browser
+## Browser
 
-GNOME Web
+### GNOME Web
 
 Now postmarketOS ships with Firefox ESR with patches to make it work decent on small devices but I found GNOME Web to work better. It also has a WebApp manager so you can install websites like applications with a launcher like I have done with the [LFNW website](https://linuxfestnorthwest.org/) here:
 
@@ -67,27 +70,33 @@ Now postmarketOS ships with Firefox ESR with patches to make it work decent on s
 
 ## Calculator
 
-GNOME Calculator
+### GNOME Calculator
 
-For some reason it brings up the keyboard which isn't needed for this application as it already has those buttons:
+Again for some reason the keyboard which isn't needed for this application as it already has those buttons:
 
 | Main Window |
 | ----------- |
-| ![GNOME Calculator Main Window](/images/{{ page.url }}/calculator_keyboard.png) |
+| ![GNOME Calculator Main Window](/images/{{ page.url }}/OnePlus-6T_Calculator.png) |
+
+## Calendar
+
+### GNOME Calendar
+
+Now I think GNOME Calendar is nice and works better then the default karlendar that postmarketOS ships with.
+
+![OnePlus 6T with GNOME Calendar](/images/{{ page.url }}/OnePlus-6T_Calendar.png)
 
 ## Music
 
 In this example we'll be using Lollypop and Spot (Spotify client):
 
-Lollypop
+### Lollypop
 
-First we'll start with the great and the good in that order:
+Now the same issues as last time are still there so I'll re-use those images:
 
 | Settings | Albums |
 | -------- | ------ |
 ![Lollypop Settings](/images/{{ page.url }}/lollypop_settings.png)| ![Lollypop Albums](/images/{{ page.url }}/lollypop_album-list.png) |
-
-Now the not so good, this repeats in this post and I think it has to do with the FilePicker itself not the application in question. Another issue which seems common is the fact that opening Settings or other features which you would expect be in the same application window creates a new window for itself.
 
 | Collection change | Different Window |
 | ----------------- | ---------------- |
@@ -95,7 +104,7 @@ Now the not so good, this repeats in this post and I think it has to do with the
 
 ## Podcasts
 
-GNOME Podcasts
+### GNOME Podcasts
 
 This works really well until you try to import a file for your podcasts that you bring from another device.
 
@@ -113,7 +122,7 @@ While it looks great at the start it also has the same failing as the Podcast ap
 
 ## Books
 
-Foliate
+### Foliate
 
 The main application seems good until you look to the right where content is off screen a bit.
 
@@ -129,7 +138,7 @@ This continues to the download window and import which are not scaled and go off
 
 ## News Feeds
 
-GNOME Feeds
+### GNOME Feeds
 
 This starts out looking great and continues until you hit the FilePicker diaglog window, the Settings also creates a new window.
 
@@ -143,10 +152,16 @@ This starts out looking great and continues until you hit the FilePicker diaglog
 
 ## Social Media
 
-Tuba
+### Tuba
 
 This works well and can manage more then one account as well! Works great on the phone and tablet though logging in can be difficult with getting the auth code from the browser.
 
 ![OnePlus 6T with Tuba feed](/images/{{ page.url }}/OnePlus-6T_Tuba.png)
 
 ![OnePlus 6T with Tuba profile](/images/{{ page.url }}/OnePlus-6T_Tuba2.png)
+
+## Bonus section
+
+### GIMP
+
+![GIMP on a tablet](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_GIMP.png)
