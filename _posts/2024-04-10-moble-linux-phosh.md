@@ -16,7 +16,11 @@ These are both running postmarketOS instead of NixOS like last year had. Now let
 
 ![OnePlus 6T on the Overview](/images/{{ page.url }}/OnePlus-6T_Overview.png)
 
+![OnePlus 6T About Settings](/images/{{ page.url }}/OnePlus-6T_About.png)
+
 ![Lenovo IdeaPad Duet on the Overview](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Overview.png)
+
+![Lenovo IdeaPad Duet About Setings](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_About.png)
 
 ## UI/UX Issues
 
@@ -27,7 +31,7 @@ Let's pick up on the issues that we talked about last year and where they are, b
 
 Yep those are still issues even with applications that use libadwaita.
 
-
+![Open File Dialog issue](/images/{{ page.url }}/Open-File-Dialog.png)
 
 ## Application Issues
 
@@ -57,9 +61,9 @@ Fractal works well and looks good!
 
 GNOME Web
 
-Now postmarketOS ships with Firefox ESR with patches to make it work decent on small devices but I found GNOME Web to work better.
+Now postmarketOS ships with Firefox ESR with patches to make it work decent on small devices but I found GNOME Web to work better. It also has a WebApp manager so you can install websites like applications with a launcher like I have done with the [LFNW website](https://linuxfestnorthwest.org/) here:
 
-
+![OnePlus 6T with GNOME WebApp](/images/{{ page.url }}/OnePlus-6T_GNOME-Web_webapp.png)
 
 ## Calculator
 
