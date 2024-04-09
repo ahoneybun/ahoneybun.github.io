@@ -12,7 +12,11 @@ This year I have the following devices instead of the PinePhone to review Phosh:
 - OnePlus 6T (Phone)
 - Lenovo IdeaPad Duet (Tablet)
 
-These are both running postmarketOS instead of NixOS like last year had.
+These are both running postmarketOS instead of NixOS like last year had. Now let's start with screenshots of these new (to me) devices with their new OSes if you haven't seen Phosh in a while (or ever):
+
+![OnePlus 6T on the Overview](/images/{{ page.url }}/OnePlus-6T_Overview.png)
+
+![Lenovo IdeaPad Duet on the Overview](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Overview.png)
 
 ## UI/UX Issues
 
@@ -27,8 +31,11 @@ Yep those are still issues even with applications that use libadwaita.
 
 ## Application Issues
 
-As we enter into the new year I'd like to document issues that are still present on this platform (screenshots will be from NixOS on a PinePhone). In this list will be pretty standard applications that most folks use on their mobile devices like below:
+We'll use the same list from 2023 since I think it's a good list of things that most folks would expect but we'll add more basic things that I left out last time. Like the Phone and SMS applications lol:
 
+- Phone*
+- SMS*
+- Matrix (Fractal)
 - Browser
 - Calculator
 - Music
@@ -38,19 +45,21 @@ As we enter into the new year I'd like to document issues that are still present
 - News Feeds
 - Social Media
 
+* Now I don't have a working SIM card in the phone so I can't test them but there are apps and they worked fine in the PinePhone.
+
+### Matrix
+
+Fractal works well and looks good!
+
+![OnePlus 6T with Fractal signed in](/images/{{ page.url }}/OnePlus-6T_Fractal.png)
+
 ### Browser
 
 GNOME Web
 
-For some reason the cursor or something like that is over the address which made it difficult to type:
+Now postmarketOS ships with Firefox ESR with patches to make it work decent on small devices but I found GNOME Web to work better.
 
-| Address bar |
-| ----------- |
-| ![GNOME Web enter address](/images/{{ page.url }}/gnome-web_enter-address.png)
 
-| google.com | wsj.com |
-| ---------- | ----
-| ![GNOME Web Google](/images/{{ page.url }}/gnome-web_google-test.png) | ![GNOME Web Wall Street Journal](/images/{{ page.url }}/gnome-web_wsj-test.png) |
 
 ## Calculator
 
@@ -80,20 +89,6 @@ Now the not so good, this repeats in this post and I think it has to do with the
 | ----------------- | ---------------- |
 | ![Lollypop Collection Change](/images/{{ page.url }}/lollypop_collection_change.png) | ![Lollypop Collection Add](/images/{{ page.url }}/lollypop_different-window.png) |
 
-Spot
-
-Everything looks good and behaves like one would expect other then the Settings like other application as you have a whole new window. The application also doesn't seemt to save Spotify login though not sure if that is the application, Phosh or Mobile NixOS:
-
-| Login | Default View |
-| ----- | ------------ |
-![Spot Login](/images/{{ page.url }}/spot_login-prompt.png)| ![Spot Albums](/images/{{ page.url }}/spot_default-view.png) |
-
-Album views:
-
-| List | Cover |
-| ---- | ----- |
-| ![Spot Album List](/images/{{ page.url }}/spot_album-list.png) | ![Spot Album Cover](/images/{{ page.url }}/spot_album-view.png) |
-
 ## Podcasts
 
 GNOME Podcasts
@@ -105,8 +100,6 @@ This works really well until you try to import a file for your podcasts that you
 | ![GNOME Podcasts Import Settings](/images/{{ page.url }}/podcast_import-window.png) |
 
 ## Text Editor
-
-Marker
 
 While it looks great at the start it also has the same failing as the Podcast application when you try to open a file with it:
 
@@ -146,7 +139,6 @@ This starts out looking great and continues until you hit the FilePicker diaglog
 
 ## Social Media
 
-Tootle/Tooth
+Tuba
 
-This application is no longer maintained but there is a new one that hasn't been packaged yet but it looks like it will be better! Here is a [link](https://github.com/GeopJr/Tooth) to it. 
-
+This works well and can manage more then one account as well! Works great on the phone and tablet though logging in can be difficult with getting the auth code from the browser.
