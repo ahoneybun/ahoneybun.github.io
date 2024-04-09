@@ -14,13 +14,15 @@ This year I have the following devices instead of the PinePhone to review Phosh:
 
 These are both running postmarketOS instead of NixOS like last year had. Now let's start with screenshots of these new (to me) devices with their new OSes if you haven't seen Phosh in a while (or ever):
 
-![OnePlus 6T on the Overview](/images/{{ page.url }}/OnePlus-6T_Overview.png)
+| Overview | About |
+| -------- | ----- |
+| ![OnePlus 6T on the Overview](/images/{{ page.url }}/OnePlus-6T_Overview.png) | ![OnePlus 6T About Settings](/images/{{ page.url }}/OnePlus-6T_About.png) |
 
-![OnePlus 6T About Settings](/images/{{ page.url }}/OnePlus-6T_About.png)
+| Overview | About |
+| -------- | ----- |
+| [![Lenovo IdeaPad Duet on the Overview](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Overview.png)](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Overview.png) | [![Lenovo IdeaPad Duet About Setings](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_About.png)](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_About.png) |
 
-![Lenovo IdeaPad Duet on the Overview](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Overview.png)
-
-![Lenovo IdeaPad Duet About Setings](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_About.png)
+NOTE: You can click on the images for the full sized image.
 
 ## UI/UX Issues
 
@@ -109,7 +111,7 @@ Now the same issues as last time are still there so I'll re-use those images:
 
 Now I have this sideways as I have issues rotating the tablet sometimes.
 
-![Lenovo IdeaPad Duet playing WING IT!](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Video-Player)
+![Lenovo IdeaPad Duet playing WING IT!](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_Video-Player.png)
 
 ## Podcasts
 
