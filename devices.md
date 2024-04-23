@@ -26,7 +26,8 @@ Some information on the devices that I use daily. Donations for better hardware 
 - [Razer Naga X](https://www.razer.com/gaming-mice/razer-naga-x)
 
 - Raspberry Pi 4B
-    - OS: Nothing currently
+    - Armbian 24.2: 128GB MicroSD card
+    - Backups: 240GB PNY CS900 M.2 SSD
 
 ## Laptops
 
