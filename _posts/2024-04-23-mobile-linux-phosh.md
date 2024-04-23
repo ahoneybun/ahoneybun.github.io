@@ -1,7 +1,7 @@
 ---
 title: Mobile Linux (Phosh) in 2024
 description: The issues with Linux on Mobile devices including tablets this year!
-updated: 2024-04-10
+updated: 2024-04-23
 tags: mobile-linux postmarketos
 ---
 
@@ -45,6 +45,8 @@ We'll use the same list from 2023 since I think it's a good list of things that 
 - Browser
 - Calculator
 - Calendar
+- Clocks
+- File Manager
 - Music
 - Video
 - Podcasts
@@ -88,6 +90,26 @@ Again for some reason the keyboard which isn't needed for this application as it
 Now I think GNOME Calendar is nice and works better then the default karlendar that postmarketOS ships with.
 
 ![OnePlus 6T with GNOME Calendar](/images/{{ page.url }}/OnePlus-6T_Calendar.png)
+
+## Clocks
+
+### GNOME Clocks
+
+This application looks great on mobile as well.
+
+![OnePlus 6T with GNOME Clocks](/images/{{ page.url }}/OnePlus-6T_Clocks.png)
+
+## File Manager
+
+### GNOME Files and Portfolio
+
+Now I used to recommand Portfolio and it is still a great piece of software but now GNOME Files looks great on mobile as well!
+
+| GNOME Files | Portfolio |
+| ----------- | --------- |
+| ![GNOME Files](/images/{{ page.url}}/OnePlus-6T_Files.png) | ![Portfolio](/images/{{ page.url }}/portfolio.png) |
+
+**NOTE:** The Portfolio screenshot is from the PinePhone. 
 
 ## Music
 
@@ -176,3 +198,7 @@ This works well and can manage more then one account as well! Works great on the
 ### GIMP
 
 ![GIMP on a tablet](/images/{{ page.url }}/Lenovo-IdeaPad-Duet_GIMP.png)
+
+### Polari
+
+![Polari on OnePlus 6T](/images/{{ page.url }}/OnePlus-6T_Polari.png)
