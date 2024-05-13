@@ -70,4 +70,4 @@ Some information on the devices that I use daily. Donations for better hardware 
 ## Misc 
 
 - [PineTime](https://pine64.com/product-category/pinetime-smartwatch/) : [Review](https://ahoneycutt.me/blog/pinetime-mini-review/)
-- [Ridge Wallet](https://ahoneybun.net/blog/ridge-wallet-review/)
+- [Ridge Wallet](https://ridge.com/products/aluminum-gunmetal) : [Review](https://ahoneybun.net/blog/ridge-wallet-review/)
