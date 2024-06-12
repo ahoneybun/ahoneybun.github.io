@@ -15,7 +15,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: AMD RX 6600 8GB Model
     - RAM: 48GB DDR4 3200MHz
     - PSU: Corsair CX650M
-    - Nobara 39: 1TB WD SN720 M.2 NVMe
+    - Pop!_OS 22.04 LTS: 1TB WD SN720 M.2 NVMe
     - NixOS 24.05: 500GB Samsung SSD 970 EVO M.2 NVMe
     - Games: 1TB Samsung SSD 870 EVO 2.5" SATA
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
