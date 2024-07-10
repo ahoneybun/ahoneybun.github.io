@@ -27,7 +27,6 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 - Raspberry Pi 4B
     - Armbian 24.2: 128GB MicroSD card
-    - Backups: 240GB PNY CS900 M.2 SSD
 
 ## Laptops
 
@@ -36,7 +35,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - GPU: Intel HD 620
     - Display: 14" 1920x1080
     - RAM: 32GB DDR4 2400MHz
-    - NixOS 24.05: 250GB PNY CS900 M.2 SATA SSD
+    - Home Assistant Operating System: 250GB PNY CS900 M.2 SATA SSD
 
 - [Lenovo Thinkpad X13s](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019)
     - CPU: Snapdragon® 8cx Gen 3 Compute Platform
