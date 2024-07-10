@@ -21,7 +21,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - Backups: 500GB Samsung SSD 860 EVO 2.5" SATA
       
 - [System76 Launch keyboard (launch_1)](https://system76.com/accessories/launch)
-    - Keycaps: Default 
+    - Keycaps: [XDA Blank](https://www.amazon.com/gp/product/B06XSQNSJG?psc=1)
     - Switches: Glorious Gateron Green
 - [Razer Naga X](https://www.razer.com/gaming-mice/razer-naga-x)
 
