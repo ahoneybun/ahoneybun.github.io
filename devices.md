@@ -10,7 +10,7 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 - [32" 4K 3840x2160 Acer display](https://www.acer.com/gb-en/monitors/business/cb2/pdp/UM.PB2EE.004)
 - [System76 nebula49 PC Case](https://system76.com/components/nebula49-1/configure)
-    - Motherboard: X299 AORUS Gaming 3 
+    - Mainboard: Gigabyte X299 AORUS Gaming 3 
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
     - RAM: 48GB DDR4 3200MHz
@@ -47,6 +47,16 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
     - NixOS 24.05: 128GB eMMC 
+
+## Server
+
+- Random Case
+    - Mainboard: Gigabyte A320M-S2H
+    - CPU: AMD Ryzen 7 2700X
+    - GPU: AMD RX 590
+    - RAM: 8GB DDR4 2400MHz
+    - Debian 12: Samsung 256GB M.2 NVMe
+    - Media: 2x WD 1TB 3.5" SATA
 
 ## Tablets
 
