@@ -60,16 +60,17 @@ Some information on the devices that I use daily. Donations for better hardware 
 ## Tablets
 
 - [Google Slate i5](https://support.google.com/pixelslate/answer/9131920?hl=en)
-    - OS: ChromeOS
+    - Firmware: Coreboot 24.05
+    - OS: Pop!_OS 22.04
 - [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
-    - OS: postmarketOS v23.12 with Phosh
+    - OS: postmarketOS v24.06 with Plasma Desktop
 
 ## Phones
 
 - [Google Fi Pixel 8 128GB (Hazel color)](https://www.gsmarena.com/google_pixel_8-12546.php)
     - with the [dbrand Grip case with X-RAY DARK](https://dbrand.com/shop/grip/google-pixel-8-cases)
 - [OnePlus 6T](https://www.gsmarena.com/oneplus_6t-9350.php)
-    - OS: postmarketOS v23.12 with Phosh
+    - OS: postmarketOS v24.06 with Plasma Mobile
 
 ## Consoles
   
