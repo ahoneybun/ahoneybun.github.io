@@ -30,12 +30,12 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 ## Laptops
 
-- [System76 Galago Pro](https://system76.com/laptops/galago) [galp3-b](https://support.system76.com/service-manuals/pdfs/Galago/galp3-service-manual.pdf)
-    - CPU: Intel i5-8250U
-    - GPU: Intel HD 620
+- [System76 Galago Pro](https://system76.com/laptops/galago) [galp5-1650]
+    - CPU: Intel i5-1135G7
+    - GPU: Intel & NVIDIA GTX 1650
     - Display: 14" 1920x1080
-    - RAM: 32GB DDR4 2400MHz
-    - Home Assistant Operating System: 250GB PNY CS900 M.2 SATA SSD
+    - RAM: 32GB DDR4 3200MHz
+    - NixOS 24.05: 1TB M.2 NVMe Gen 4 
 
 - [Lenovo Thinkpad X13s](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019)
     - CPU: Snapdragon® 8cx Gen 3 Compute Platform
