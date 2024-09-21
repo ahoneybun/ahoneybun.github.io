@@ -10,6 +10,7 @@ Some information on the devices that I use daily. Donations for better hardware 
 
 - [32" 4K 3840x2160 Acer display](https://www.acer.com/gb-en/monitors/business/cb2/pdp/UM.PB2EE.004)
 - [System76 nebula49 PC Case](https://system76.com/components/nebula49-1/configure)
+    - Hostname: Shepard
     - Mainboard: Gigabyte X299 AORUS Gaming 3 
     - CPU: Intel i9-10920X
     - GPU: AMD RX 6600 8GB Model
@@ -26,18 +27,21 @@ Some information on the devices that I use daily. Donations for better hardware 
 - [Razer Naga X](https://www.razer.com/gaming-mice/razer-naga-x)
 
 - Raspberry Pi 4B
+    - Hostname: Vetra
     - Armbian 24.2: 128GB MicroSD card
 
 ## Laptops
 
 - [System76 Galago Pro](https://system76.com/laptops/galago) [galp5-1650]
+    - Hostname: Garrus
     - CPU: Intel i5-1135G7
     - GPU: Intel & NVIDIA GTX 1650
     - Display: 14" 1920x1080
     - RAM: 32GB DDR4 3200MHz
     - NixOS 24.05: 1TB M.2 NVMe Gen 4 
 
-- [Lenovo Thinkpad X13s](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019)
+- [Lenovo Thinkpad X13s](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019) : [Review](https://ahoneybun.net/blog/Thinkpad-X13s-review/)
+    - Hostname: Drack
     - CPU: Snapdragon® 8cx Gen 3 Compute Platform
     - GPU: Integrated Qualcomm® Adreno™ 690 Graphics 
     - Display: 13.3" 1920x1200 [Touch Screen]
@@ -45,11 +49,13 @@ Some information on the devices that I use daily. Donations for better hardware 
     - RAM: 16GB LPDDR4X-4266MHz
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
+    - Hostname: Jaal
     - NixOS 24.05: 128GB eMMC 
 
 ## Server
 
 - Random Case
+    - Hostname: EDI
     - Mainboard: Gigabyte A320M-S2H
     - CPU: AMD Ryzen 7 2700X
     - GPU: AMD RX 590
@@ -60,6 +66,7 @@ Some information on the devices that I use daily. Donations for better hardware 
 ## Tablets
 
 - [Google Slate i5](https://support.google.com/pixelslate/answer/9131920?hl=en)
+    - Hostname: Grunt
     - Firmware: Coreboot 24.05
     - OS: Bluefin 40
 - [Lenovo IdeaPad Duet](https://www.google.com/intl/en_us/chromebook/device/lenovo-chromebook-duet/)
@@ -70,6 +77,7 @@ Some information on the devices that I use daily. Donations for better hardware 
 - [Google Fi Pixel 8 128GB (Hazel color)](https://www.gsmarena.com/google_pixel_8-12546.php)
     - with the [dbrand Grip case with X-RAY DARK](https://dbrand.com/shop/grip/google-pixel-8-cases)
 - [OnePlus 6T](https://www.gsmarena.com/oneplus_6t-9350.php)
+    - Hostname: Lexi
     - OS: postmarketOS v24.06 with GNOME Mobile
 - [Librem 5](https://shop.puri.sm/shop/librem-5/)
     - OS: postmarketOS v24.06 with Phosh
