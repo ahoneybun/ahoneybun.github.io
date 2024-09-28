@@ -31,9 +31,8 @@ Install gems:
 bundle install
 ```
 
-A bug with Jekyll [here](https://github.com/jekyll/jekyll/issues/8523) means we need to run this as well:
 ```bash
-bundle add webrick
+bundle add kramdown-parser-gfm
 ```
 
 Build and serve locally with:
