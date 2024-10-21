@@ -45,7 +45,7 @@ Some information on the devices that I use daily. Donations for better hardware 
     - CPU: Snapdragon® 8cx Gen 3 Compute Platform
     - GPU: Integrated Qualcomm® Adreno™ 690 Graphics 
     - Display: 13.3" 1920x1200 [Touch Screen]
-    - Ubuntu 24.04 LTS: 512 GB SSD M.2 2242 NVMe Gen 4
+    - Ubuntu 24.10 LTS: 512 GB SSD M.2 2242 NVMe Gen 4
     - RAM: 16GB LPDDR4X-4266MHz
 
 - [Pinebook Pro](https://www.pine64.org/pinebook-pro/)
