@@ -2,11 +2,35 @@
 title: A review of the Thinkpad X13s with Ubuntu Linux
 description: This review is mainly with Ubuntu 23.10 but a little on Ubuntu 24.04
 updated: 2024-03-21
-tags: ubuntu ubuntu-23.10 ubuntu-24.04 aarch64 review
+tags: ubuntu ubuntu-23.10 ubuntu-24.04 ubuntu-24.10 aarch64 review
 
 comments:
   id: 112135931486839534
 ---
+
+## Update (Ubuntu 24.10)
+
+The following packages and changes are needed for the webcam to work as of this update:
+
+```bash
+sudo usermod -aG video $USER
+sudo apt install pipewire-libcamera libcamera-tools libcamera-ipa
+```
+
+Add this file: `/etc/udev/rules.d/95-libcamera-hack.rules` with this as the content:
+
+```
+ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="linux,cma", GROUP="video", MODE="0660"
+ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="system", GROUP="video", MODE="0660"
+```
+
+Set this value in Firefox's about:config page:
+
+```
+media.webrtc.camera.allow-pipewire
+```
+
+Then restart the system. 
 
 ## Preface
 
