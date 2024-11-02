@@ -1,14 +1,17 @@
 ---
 title: A review of the Thinkpad X13s with Ubuntu Linux
 description: This review is mainly with Ubuntu 23.10 but a little on Ubuntu 24.04
-updated: 2024-03-21
+updated: 2024-11-01
 tags: ubuntu ubuntu-23.10 ubuntu-24.04 ubuntu-24.10 aarch64 review
 
+# Update the comments id at some point
 comments:
   id: 112135931486839534
 ---
 
 ## Update (Ubuntu 24.10)
+
+### Webcam support 
 
 The following packages and changes are needed for the webcam to work as of this update:
 
@@ -30,7 +33,11 @@ Set this value in Firefox's about:config page:
 media.webrtc.camera.allow-pipewire
 ```
 
-Then restart the system. 
+Now restart the system and test:
+
+```bash
+sudo qcam
+```
 
 ## Preface
 
@@ -53,18 +60,23 @@ Now before you get try booting an ISO you will need to do two things in the BIOS
 
 Now you might be able to leave Secure Boot on if you use Ubuntu or another distro that supports it but I did not test that in this review. These steps are from the Debian Wiki for this model which you can find [here](https://wiki.debian.org/InstallingDebianOn/Thinkpad/X13s#BIOS_configuration). 
 
-This is an updated table based on my testing on Ubuntu 23.10/24.04:
+This is an updated table based on my testing on Ubuntu 23.10/24.04/24.10:
 
 | Core Feature       | Status |
 | ------------------ | ------ |
 | Wi-Fi/Bluetooth    | Works  |
 | Touchpad           | Works  |
-| Touch Screen       | Works  | * not the default configuration
+| Touch Screen       | Works  | *
 | Fingerprint Reader | Works  |
-| Speakers           | Works  |
+| Webcam             | Can work | **
+| Speakers           | Works-ish  | ***
 | Headphone port     | Works-ish  |
 | USB-C ports        | Works  |
 | SIM Slot           | Not tested | 
+
+* Not in the default configuration
+** Can be enabled in Ubuntu 24.10 with steps in this review
+*** They are very low due to active speaker protection not being enabled [source](https://github.com/jhovold/linux/wiki/X13s#audio) 
 
 NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the special keys other then for the screen brightness and volume work. I'll need to use a SIM to test if those buttons work but I doubt they do. From the Debian Wiki page the SIM should work but it may have some hoops to go though but perhaps not on Ubuntu.
 
