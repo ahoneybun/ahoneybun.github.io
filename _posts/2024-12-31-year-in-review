@@ -1,0 +1,18 @@
+---
+title: Review of 2024 in Open Source
+description: My contributions this year
+updated: 2024-12-31
+tags:
+---
+
+## New and updated packages in [nixpkgs](https://github.com/NixOS/nixpkgs)!
+
+With the launch of the new [System76 Thelio Astra](https://system76.com/desktops/thelio-astra) we saw some updated system76 packages such as 
+
+- [system76-power](https://github.com/NixOS/nixpkgs/pull/350954) 
+- [system76-io-dkms](https://github.com/NixOS/nixpkgs/pull/350933)
+
+but system76-io-dkms update also added support for the [Thelio Io v2](https://github.com/system76/thelio-io).
+
+We also saw the first Alpha, second and third  Alpha of the COSMIC packages that I (co)-maintain in nixpkgs though some skipped Alpha 2 going right from Alpha 1 to Alpha 3.
+
