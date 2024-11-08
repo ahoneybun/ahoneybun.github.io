@@ -27,3 +27,7 @@ Some cool stuff that I have my eyes on.
 ## Homelab
 
 [Orange Pi 5](https://www.amazon.com/Orange-Pi-Rockchip-Computer-Development/dp/B0BLXWXSQQ/)
+
+## Mobile devices
+
+[uConsole Kit with Raspberry Pi CM4](https://www.clockworkpi.com/product-page/uconsole-kit-rpi-cm4-lite)
