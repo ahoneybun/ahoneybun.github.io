@@ -16,3 +16,9 @@ but system76-io-dkms update also added support for the [Thelio Io v2](https://gi
 
 We also saw the first Alpha, second and third  Alpha of the COSMIC packages that I (co)-maintain in nixpkgs though some skipped Alpha 2 going right from Alpha 1 to Alpha 3.
 
+I would like to highlight the help from the following people who have helped me with my work in nixpkgs:
+
+- [nyabinary](https://github.com/nyabinary)
+- [lilyinstarlight](https://github.com/lilyinstarlight)
+- [a-kenji](https://github.com/a-kenji)
+
