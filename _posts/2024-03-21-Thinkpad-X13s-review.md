@@ -1,9 +1,10 @@
 ---
 title: A review of the Thinkpad X13s with Ubuntu Linux
 description: This review is mainly with Ubuntu 23.10 but a little on Ubuntu 24.04
-updated: 2024-03-21
-tags: ubuntu ubuntu-23.10 ubuntu-24.04 aarch64 review
+updated: 2024-11-01
+tags: ubuntu ubuntu-23.10 ubuntu-24.04 ubuntu-24.10 aarch64 review
 
+# Update the comments id at some point
 comments:
   id: 112135931486839534
 ---
@@ -22,6 +23,8 @@ Ubuntu has a custom image for this system which is nice until it can be merged i
 
 My original install was done using the 23.10 image but I have upgraded to 24.04 (which is still in testing until the end of April) but both have the 6.5.0 kernel series so other then possible newer versions of Mesa, PipeWire/PulseAudio everything should be pretty much the same for testing. 
 
+**Ubuntu 24.10 note:** with this release there is now a generic arm64 image that works on this device from this [link](https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-desktop-arm64.iso).
+
 Now before you get try booting an ISO you will need to do two things in the BIOS (which you can get to with F1 at boot):
 
 1. Enable Linux Boot (Config -> Linux -> Linux Boot (Beta))
@@ -29,18 +32,23 @@ Now before you get try booting an ISO you will need to do two things in the BIOS
 
 Now you might be able to leave Secure Boot on if you use Ubuntu or another distro that supports it but I did not test that in this review. These steps are from the Debian Wiki for this model which you can find [here](https://wiki.debian.org/InstallingDebianOn/Thinkpad/X13s#BIOS_configuration). 
 
-This is an updated table based on my testing on Ubuntu 23.10/24.04:
+This is an updated table based on my testing on Ubuntu 23.10/24.04/24.10:
 
 | Core Feature       | Status |
 | ------------------ | ------ |
 | Wi-Fi/Bluetooth    | Works  |
 | Touchpad           | Works  |
-| Touch Screen       | Works  | * not the default configuration
+| Touch Screen       | Works  | *
 | Fingerprint Reader | Works  |
-| Speakers           | Works  |
+| Webcam             | Can work | **
+| Speakers           | Works-ish  | ***
 | Headphone port     | Works-ish  |
 | USB-C ports        | Works  |
 | SIM Slot           | Not tested | 
+
+* Not in the default configuration
+** Can be enabled in Ubuntu 24.10 with steps in this review
+*** They are very low due to active speaker protection not being enabled [source](https://github.com/jhovold/linux/wiki/X13s#audio) 
 
 NOTE: Like mentioned in the Debian Wiki page for this system I'm not sure if the special keys other then for the screen brightness and volume work. I'll need to use a SIM to test if those buttons work but I doubt they do. From the Debian Wiki page the SIM should work but it may have some hoops to go though but perhaps not on Ubuntu.
 
@@ -94,7 +102,7 @@ Both ports are 3.2 Gen 2 and support video out and power in though my testing, I
 
 To my surprise the fingerprint reader works well and I can enroll my fingers! It even unlocks the system the system at the login screen too!
 
-### Buttons
+### Button
 
 I've never had a Thinkpad before but I've heard many friends praise the keyboard, the nib and the buttons like the ones above the touchpad. I'm happy to say that they were indeed correct and it is really nice to have physical buttons in addition to the buttons under the touchpad such as the middle mouse button.
 
@@ -126,6 +134,8 @@ These are the items that don't make or break the system for most folks but are i
 
 The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire/Kernel updates will help in the future but I'm not sure.
 
+**Ubuntu 24.10 note:** they do not work better with 6.11 in this release as they are still pretty low due to active speaker protection not being enabled.
+
 ### Headphone/Microphone port
 
 The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
@@ -152,6 +162,8 @@ aaronh@drack:~$ cat /sys/power/mem_sleep
 
 Note that the `deep` option is not available on this system.
 
+**Ubuntu 24.10 note:** this device does not enter the deepest low-power state during suspend yet.
+
 ## The Ugly
 
 Here are the items that will most likely help you decide if this is a system for you.
@@ -160,6 +172,34 @@ Here are the items that will most likely help you decide if this is a system for
 
 For a really nice and portable system this would be an ideal candidate for remote working but since the camera does not work that might be the biggest deal breaker. I imagine support would be added in the future but it depends on how important it is to you.
 This part is short as I'm not able to detect it with any software that I can find like camaeractrls, websites and such.
+
+**Ubuntu 24.10 note:** this *can* work with some steps below:
+
+The following packages and changes are needed for the webcam to work as of this update:
+
+```bash
+sudo usermod -aG video $USER
+sudo apt install pipewire-libcamera libcamera-tools libcamera-ipa
+```
+
+Add this file: `/etc/udev/rules.d/95-libcamera-hack.rules` with this as the content:
+
+```
+ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="linux,cma", GROUP="video", MODE="0660"
+ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="system", GROUP="video", MODE="0660"
+```
+
+Set this value in Firefox's about:config page:
+
+```
+media.webrtc.camera.allow-pipewire
+```
+
+Now restart the system and test:
+
+```bash
+sudo qcam
+```
 
 ### Compiling
 
@@ -173,3 +213,10 @@ Once Ubuntu 24.04 is released with the 6.8 kernel I believe things will get even
 - [Phoronix - Qualcomm-Mainline-Linux-2024](https://www.phoronix.com/news/Qualcomm-Mainline-Linux-2024)
 
 This system is a great little portable machine with an ARM64 CPU and works great on Ubuntu. If you are looking for a system that is fanless for working on documents, web browsing, watching some YouTube videos and a little development work this is a great option! With that said if you travel and use streaming services that might be a deal breaker for you but I hope that it improves in the near future. 
+
+## Additional tracking
+
+There are some more resources for updated information about Linux on this device:
+
+- [steev's repo](https://github.com/steev/thinkpad-x13s)
+- [jhovold's wiki](https://github.com/jhovold/linux/wiki/X13s)
