@@ -23,6 +23,8 @@ Ubuntu has a custom image for this system which is nice until it can be merged i
 
 My original install was done using the 23.10 image but I have upgraded to 24.04 (which is still in testing until the end of April) but both have the 6.5.0 kernel series so other then possible newer versions of Mesa, PipeWire/PulseAudio everything should be pretty much the same for testing. 
 
+**Ubuntu 24.10 note:** with this release there is now a generic arm64 image that works on this device from this [link](https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-desktop-arm64.iso).
+
 Now before you get try booting an ISO you will need to do two things in the BIOS (which you can get to with F1 at boot):
 
 1. Enable Linux Boot (Config -> Linux -> Linux Boot (Beta))
