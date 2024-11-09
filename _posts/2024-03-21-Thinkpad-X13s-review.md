@@ -9,36 +9,6 @@ comments:
   id: 112135931486839534
 ---
 
-## Update (Ubuntu 24.10)
-
-### Webcam support 
-
-The following packages and changes are needed for the webcam to work as of this update:
-
-```bash
-sudo usermod -aG video $USER
-sudo apt install pipewire-libcamera libcamera-tools libcamera-ipa
-```
-
-Add this file: `/etc/udev/rules.d/95-libcamera-hack.rules` with this as the content:
-
-```
-ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="linux,cma", GROUP="video", MODE="0660"
-ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="system", GROUP="video", MODE="0660"
-```
-
-Set this value in Firefox's about:config page:
-
-```
-media.webrtc.camera.allow-pipewire
-```
-
-Now restart the system and test:
-
-```bash
-sudo qcam
-```
-
 ## Preface
 
 I purchased this system from [Amazon's Renewed Store](https://www.amazon.com/dp/B0BVWKM463?psc=1&ref=ppx_yo2ov_dt_b_product_details#renewedProgramDescriptionBtfSection) and the listing for this model is also in that link if you wanted to purchase it after this review. This review has been done over a week of using the system with my findings broken down with the Good, Bad and Ugly system.
@@ -130,7 +100,7 @@ Both ports are 3.2 Gen 2 and support video out and power in though my testing, I
 
 To my surprise the fingerprint reader works well and I can enroll my fingers! It even unlocks the system the system at the login screen too!
 
-### Buttons
+### Button
 
 I've never had a Thinkpad before but I've heard many friends praise the keyboard, the nib and the buttons like the ones above the touchpad. I'm happy to say that they were indeed correct and it is really nice to have physical buttons in addition to the buttons under the touchpad such as the middle mouse button.
 
@@ -162,6 +132,8 @@ These are the items that don't make or break the system for most folks but are i
 
 The speakers which are really low for some reason and do not get better even at the lightest volume for some reason, perhaps driver/PipeWire/Kernel updates will help in the future but I'm not sure.
 
+**Ubuntu 24.10 note:** they do not work better with 6.11 in this release as they are still pretty low due to active speaker protection not being enabled.
+
 ### Headphone/Microphone port
 
 The headphone port and even at the lower volume it has a lot of cracking in the output and it gets worse as you increase the volume. I tested two different headphones with the same result. Now using a USB headset (though the USB-C port) seems to work without issue so that is a workaround though you'll need to use an adapter to do this. I have not tested a headset with a microphone yet since I mainly use a USB-A headset so I don't use the port much.
@@ -188,6 +160,8 @@ aaronh@drack:~$ cat /sys/power/mem_sleep
 
 Note that the `deep` option is not available on this system.
 
+**Ubuntu 24.10 note:** this device does not enter the deepest low-power state during suspend yet.
+
 ## The Ugly
 
 Here are the items that will most likely help you decide if this is a system for you.
@@ -196,6 +170,34 @@ Here are the items that will most likely help you decide if this is a system for
 
 For a really nice and portable system this would be an ideal candidate for remote working but since the camera does not work that might be the biggest deal breaker. I imagine support would be added in the future but it depends on how important it is to you.
 This part is short as I'm not able to detect it with any software that I can find like camaeractrls, websites and such.
+
+**Ubuntu 24.10 note:** this *can* work with some steps below:
+
+The following packages and changes are needed for the webcam to work as of this update:
+
+```bash
+sudo usermod -aG video $USER
+sudo apt install pipewire-libcamera libcamera-tools libcamera-ipa
+```
+
+Add this file: `/etc/udev/rules.d/95-libcamera-hack.rules` with this as the content:
+
+```
+ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="linux,cma", GROUP="video", MODE="0660"
+ACTION=="add", SUBSYSTEM=="dma_heap", KERNEL=="system", GROUP="video", MODE="0660"
+```
+
+Set this value in Firefox's about:config page:
+
+```
+media.webrtc.camera.allow-pipewire
+```
+
+Now restart the system and test:
+
+```bash
+sudo qcam
+```
 
 ### Compiling
 
@@ -209,3 +211,10 @@ Once Ubuntu 24.04 is released with the 6.8 kernel I believe things will get even
 - [Phoronix - Qualcomm-Mainline-Linux-2024](https://www.phoronix.com/news/Qualcomm-Mainline-Linux-2024)
 
 This system is a great little portable machine with an ARM64 CPU and works great on Ubuntu. If you are looking for a system that is fanless for working on documents, web browsing, watching some YouTube videos and a little development work this is a great option! With that said if you travel and use streaming services that might be a deal breaker for you but I hope that it improves in the near future. 
+
+## Additional tracking
+
+There are some more resources for updated information about Linux on this device:
+
+- [steev's repo](https://github.com/steev/thinkpad-x13s)
+- [jhovold's wiki](https://github.com/jhovold/linux/wiki/X13s)
