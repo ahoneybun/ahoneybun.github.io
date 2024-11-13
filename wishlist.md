@@ -31,3 +31,7 @@ Some cool stuff that I have my eyes on.
 ## Mobile devices
 
 [uConsole Kit with Raspberry Pi CM4](https://www.clockworkpi.com/product-page/uconsole-kit-rpi-cm4-lite)
+
+## Keyboards and the like
+
+[Keebio Chocopad Rev. 2](https://keeb.io/products/chocopad-16-key-macropad-for-kailh-choc-low-profile-switches)
